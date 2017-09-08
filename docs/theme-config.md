@@ -1,13 +1,18 @@
+# Theme config
+-----
+
 # Configuration file introduction
 
 * root `_config.yml` is the hexo work folder config file
 * `melody.yml` is the `theme-melody` config file which you should copy the theme `_config.yml` to the hexo work folder's `source/_data/melody.yml`
 
+------
+
 # Language
 
 Set the root `_config.yml`
 
-```yml
+```yaml
 language: en
 ```
 
@@ -21,6 +26,8 @@ The default language is en.
 | zh-Hans     | Molunerfinn |
 | en          | Molunerfinn |
 
+------
+
 # Highlight theme
 
 `theme-melody` supports the [Material Theme](https://github.com/equinusocio/material-theme) code highlight and full four color schemes:
@@ -32,7 +39,7 @@ The default language is en.
 
 set the `melody.yml`
 
-```yml
+```yaml
 highlight: default
 ```
 
@@ -60,13 +67,15 @@ highlight: default
 
 As you can see, in the top-right corner of code area, it's a copy icon for you to copy the code by clicking.
 
+------
+
 # Social Icons
 
 Set the social icons and url on the top of site. The format is `icon-name: url`. For icon-name, you can check the [font-awesome](http://fontawesome.io/icons/).
 
 set the `melody.yml`
 
-```yml
+```yaml
 social:
   github: https://github.com/Molunerfinn
   weibo: http://weibo.com/mybluedreams
@@ -78,13 +87,15 @@ social:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
 
+------
+
 # Top-img
 
 `Top-img` is the `theme-melody` most magic option. It can have `true` or `false` or `specific img url` values.
 
 set the `melody.yml`
 
-```yml
+```yaml
 top_img: true    # false or specific img url
 ```
 
@@ -124,7 +135,7 @@ There are screen shots of the three different values:
 
 Just add the `top_img` & url in your post header in the specific `md` file
 
-```yml
+```yaml
 title: Hi, theme-melody!
 tags:
   - hexo
@@ -136,13 +147,15 @@ date: 2017-09-07
 
 !> After that, your specific post will have it's own top-img instead of the theme top-img value
 
+------
+
 # Post meta
 
 `Post meta` is a option to show the information of a post.
 
 set the `melody.yml`
 
-```yml
+```yaml
 post_meta:
   date_type: created # or updated
   categories: true # or false
@@ -156,11 +169,13 @@ The following screen shots shows the tags:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
 
+------
+
 # Avatar
 
 Set the sidebar avatar.
 
-```yml
+```yaml
 avatar: https://xxxx.jpg
 ```
 
@@ -168,13 +183,15 @@ avatar: https://xxxx.jpg
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
 
+------
+
 # Friend links
 
 In the sidebar, you can set some links to your friends or some web pages. The format is `name: url`
 
 set the `melody.yml`
 
-```yml
+```yaml
 links_title: Links   # Set the links title
 links:
   Molunerfinn: https://molunerfinn.com
@@ -185,6 +202,8 @@ links:
 ## Screen shot:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
+
+------
 
 # Toc
 
@@ -206,6 +225,8 @@ toc:
 > `enable: false`
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
+
+------
 
 # Since
 

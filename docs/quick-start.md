@@ -18,7 +18,7 @@ For example, get into the `themes/melody` folder and then
 
 Set theme in the hexo work folder's root config file `_config.yml`:
 
-```yml
+```yaml
 theme: melody
 ```
 

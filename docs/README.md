@@ -9,7 +9,7 @@ See the [Quick start](quickstart.md) for more details.
 * Render static pages fastly (Use the [pug](https://github.com/pugjs/pug) template engine)
 * Smoothly update (Use the Hexo [data files](https://hexo.io/docs/data-files.html) feature)
 * Comments support
-* Shared support
+* Share support
 * Search support
 * Analytics support
 * Animation support
