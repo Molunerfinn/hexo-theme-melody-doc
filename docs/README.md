@@ -14,6 +14,7 @@ See the [Quick start](quickstart.md) for more details.
 * Analytics support
 * Animation support
 * Catalog support
+* MathJax support
 * i18n support
 * Compatible with IE10+
 * ...

@@ -136,6 +136,22 @@ busuanzi:
 
 ------
 
+# MathJax
+
+Set the `melody.yml`
+
+```yaml
+mathjax:
+  enable: true # or false
+  cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
+```
+
+### Screen shots
+
+![](https://ws1.sinaimg.cn/large/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
+
+------
+
 # Effects
 
 ## fireworks
