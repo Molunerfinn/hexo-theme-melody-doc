@@ -1,4 +1,4 @@
-- [Home](/)
-- [Quick start](quick-start.md)
-- [Theme config](theme-config.md)
-- [Third-party support](third-party-support.md)
+- [**Home**](/)
+- [**Quick start**](quick-start.md)
+- [**Theme config**](theme-config.md)
+- [**Third-party support**](third-party-support.md)

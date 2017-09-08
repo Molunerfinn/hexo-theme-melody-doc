@@ -22,6 +22,8 @@ Set theme in the hexo work folder's root config file `_config.yml`:
 theme: melody
 ```
 
+!> If you don't have pug & stylus renderder, please `npm install hexo-jade-renderer hexo -stylus-renderer --save` or `yarn add hexo-jade-renderer hexo-stylus-renderer`
+
 ## Configuration
 
 For smoothly update, `theme-melody` use the [data files](https://hexo.io/docs/data-files.html) feature.
