@@ -2,7 +2,7 @@
 
 > A simple & beautiful & fast theme for [Hexo](https://hexo.io/)
 
-See the [Quick start](quickstart.md) for more details.
+See the [Quick start](quick-start.md) for more details.
 
 ## Features
 
