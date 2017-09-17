@@ -14,6 +14,14 @@ For example, get into the `themes/melody` folder and then
 
 > You can view all the versions by `git tags -l`
 
+if you want to try the latest feature of `theme-melody`, you can use the `dev` branch：
+
+```
+git checkout dev
+```
+
+!> All the new features in the dev branch is not stable & no docs for you to setup! You should read the dev branch commits history by yourself.
+
 ## Setup
 
 Set theme in the hexo work folder's root config file `_config.yml`:

@@ -171,9 +171,50 @@ The following screen shots shows the tags:
 
 ------
 
+# Post copyright (Since v1.1)
+
+Show the copyright & license for your blog post!
+
+Set the `melody.yml`.
+
+```yaml
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+```
+
+## Screen shot
+
+![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
+
+------
+
+# Post QR code (Since v1.1)
+
+Show your own QR code in the end of a post to readers. The QR code img & the text of it depends on you.
+
+Set the `melody.yml`
+
+```yaml
+QR_code:
+  - itemlist:
+      img: https://xxxx1.jpg
+      text: 支付宝打赏
+  - itemlist:
+      img: https://xxxx2.jpg
+      text: 微信打赏
+```
+
+## Screen shot
+
+![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
+
+------
+
 # Avatar
 
-Set the sidebar avatar.
+Set the `melody.yml`.
 
 ```yaml
 avatar: https://xxxx.jpg

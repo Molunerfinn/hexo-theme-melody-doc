@@ -1,0 +1,27 @@
+{
+  "name": "hexo-theme-melody-doc",
+  "version": "1.0.0",
+  "description": "hexo theme melody doc",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "docsify serve ./docs -p 3131"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Molunerfinn/hexo-theme-melody-doc.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-theme"
+  ],
+  "author": "Molunerfinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Molunerfinn/hexo-theme-melody-doc/issues"
+  },
+  "homepage": "https://github.com/Molunerfinn/hexo-theme-melody-doc#readme"
+}
