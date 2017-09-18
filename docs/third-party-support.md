@@ -59,7 +59,7 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 ```
 
-### Screen shots
+### Screenshots
 
 > Click the search icon
 
@@ -130,7 +130,7 @@ busuanzi:
   page_pv_footer: 
 ```
 
-### Screen shot
+### Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjcl0gur6tj21z20a8q4t.jpg)
 
@@ -146,7 +146,7 @@ mathjax:
   cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
 ```
 
-### Screen shots
+### Screenshots
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
 
@@ -166,7 +166,7 @@ fireworks: true
 
 Try to click the page body!
 
-### Screen shot
+### Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
 

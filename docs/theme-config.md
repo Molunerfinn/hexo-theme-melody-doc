@@ -43,7 +43,7 @@ set the `melody.yml`
 highlight: default
 ```
 
-## Screen shots
+## Screenshots
 
 > default
 
@@ -83,7 +83,7 @@ social:
   ...
 ```
 
-## Screen shot
+## Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
 
@@ -99,7 +99,7 @@ set the `melody.yml`
 top_img: true    # false or specific img url
 ```
 
-There are screen shots of the three different values:
+There are Screenshots of the three different values:
 
 - `top_img: true`
 
@@ -164,7 +164,7 @@ post_meta:
 
 In the top of a post, you can see the date of post and the categories of post. In the bottom of a post, you can see the tags of post.
 
-The following screen shots shows the tags:
+The following Screenshots shows the tags:
 
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
@@ -184,7 +184,7 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 ```
 
-## Screen shot
+## Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
 
@@ -206,7 +206,7 @@ QR_code:
       text: 微信打赏
 ```
 
-## Screen shot
+## Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
 
@@ -220,7 +220,7 @@ Set the `melody.yml`.
 avatar: https://xxxx.jpg
 ```
 
-## Screen shot
+## Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
 
@@ -240,7 +240,7 @@ links:
   Elody: https://piegg.cn
 ```
 
-## Screen shot:
+## Screenshot:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
 
@@ -257,7 +257,7 @@ toc:
   enable: true # or false
 ```
 
-## Screen shots:
+## Screenshots:
 
 > `enable: true`
 
@@ -279,6 +279,6 @@ set the `melody.yml`
 since: 2013
 ```
 
-## Screen shot:
+## Screenshot:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
