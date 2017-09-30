@@ -4,7 +4,7 @@
 
 ------
 
-## PWA (Since v1.2)
+# PWA (Since v1.2)
 
 To have the PWA feature for `theme-melody`, you need to do the following things:
 
@@ -23,7 +23,8 @@ You can create a `manifest.json` fastly by visiting [Web App Manifest](https://a
 
 Then put `manifest.json` into your hexo site `source/` folder.
 
-### Screenshot
+## Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fk1eksl51kj21z20ogjyo.jpg)
+
 
