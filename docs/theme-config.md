@@ -252,7 +252,7 @@ You can have a toc catalog for your post. It's in your sidebar and will auto exp
 
 set the `melody.yml`
 
-```
+```yaml
 toc:
   enable: true # or false
 ```

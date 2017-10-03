@@ -1,0 +1,5 @@
+- [**主页**](/zh-Hans/)
+- [**快速开始**](zh-Hans/quick-start.md)
+- [**主题配置**](zh-Hans/theme-config.md)
+- [**第三方支持**](zh-Hans/third-party-support.md)
+- [**额外依赖库支持**](zh-Hans/additional-package-support.md)
