@@ -171,7 +171,9 @@ The following Screenshots shows the tags:
 
 ------
 
-# Post copyright (Since v1.1)
+# Post copyright
+
+!> Since v1.1
 
 Show the copyright & license for your blog post!
 
@@ -190,7 +192,9 @@ post_copyright:
 
 ------
 
-# Post QR code (Since v1.1)
+# Post QR code
+
+!> Since v1.1
 
 Show your own QR code in the end of a post to readers. The QR code img & the text of it depends on you.
 

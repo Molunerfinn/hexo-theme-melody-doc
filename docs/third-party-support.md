@@ -69,6 +69,26 @@ algolia_search:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjcjmc7d92j21z00ws44q.jpg)
 
+## Local search
+
+!> Since v1.3
+
+1. You should install [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). Follow its doc to setup. **Only supporting the `xml` file**.
+
+2. Set the `melody.yml`
+
+```yaml
+local_search:
+  enable: true # or false
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
+```
+
+### Screenshots
+
+![](https://ws1.sinaimg.cn/large/8700af19ly1fksfyhkvruj21z20ug44m.jpg)
+
 ------
 
 # Analytics
@@ -169,6 +189,4 @@ Try to click the page body!
 ### Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
-
-
 

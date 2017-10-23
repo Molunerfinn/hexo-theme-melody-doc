@@ -4,7 +4,9 @@
 
 ------
 
-# PWA (版本v1.2)
+# PWA
+
+!> 版本 1.2
 
 要为`theme-melody`配上PWA特性, 你需要如下几个步骤:
 
@@ -27,4 +29,23 @@ pwa:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fk1eksl51kj21z20ogjyo.jpg)
 
+------
 
+# 字数统计
+
+!> 版本 1.3
+
+要为`theme-melody`配上字数统计特性, 你需要如下几个步骤:
+
+1. 打开hexo工作目录
+2. `npm install hexo-wordcount` or `yarn add hexo-wordcount`
+3. 配置`melody.yml`:
+
+```yaml
+wordcount:
+  enable: true
+```
+
+## 截图 
+
+![](https://ws1.sinaimg.cn/large/8700af19ly1fksgxun0joj21z20todl2.jpg)

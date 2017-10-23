@@ -4,7 +4,9 @@
 
 ------
 
-# PWA (Since v1.2)
+# PWA 
+
+!> Since v1.2
 
 To have the PWA feature for `theme-melody`, you need to do the following things:
 
@@ -27,4 +29,23 @@ Then put `manifest.json` into your hexo site `source/` folder.
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fk1eksl51kj21z20ogjyo.jpg)
 
+------
 
+# Word Counting
+
+!> Since v1.3
+
+To have the word counting feature for `theme-melody`, you need to do the following things:
+
+1. Go to the hexo site folder
+2. `npm install hexo-wordcount` or `yarn add hexo-wordcount`
+3. Set the `melody.yml`
+
+```yaml
+wordcount:
+  enable: true
+```
+
+## Screenshot
+
+![](https://ws1.sinaimg.cn/large/8700af19ly1fksgxun0joj21z20todl2.jpg)

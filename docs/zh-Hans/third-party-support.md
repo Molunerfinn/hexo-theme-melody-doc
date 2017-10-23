@@ -43,7 +43,7 @@ addThis:
 
 ## Algolia
 
-1. 你需要安装 [hexo-algolia](https://github.com/oncletom/hexo-algolia) or [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch). 根据它们的说明文档去做相应的配置。
+1. 你需要安装 [hexo-algolia](https://github.com/oncletom/hexo-algolia) 或 [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch). 根据它们的说明文档去做相应的配置。
 
 2. 配置`melody.yml`
 
@@ -67,6 +67,26 @@ algolia_search:
 > 搜索结果
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjcjmc7d92j21z00ws44q.jpg)
+
+## 本地搜索
+
+!> 版本 1.3
+
+1. 你需要安装 [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). 根据它的文档去做相应配置。**注意格式只支持xml**。
+
+2. Set the `melody.yml`
+
+```yaml
+local_search:
+  enable: true # or false
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
+```
+
+### 截图
+
+![](https://ws1.sinaimg.cn/large/8700af19ly1fksfyhkvruj21z20ug44m.jpg)
 
 ------
 
