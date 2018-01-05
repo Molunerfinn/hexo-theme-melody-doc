@@ -89,6 +89,53 @@ social:
 
 ------
 
+# Menu
+
+In the top-right area, there are nav menu items. Hexo has default path for `/` and `/archives`. If you want to add more menu items such as tags and categories, follow this:
+
+1. get to your hexo blog root folder.
+2. type `hexo new page tags`
+3. you will find `source/tags/index.md`
+4. modify the `index.md`
+
+```
+---
+title: tags
+date: 2018-01-05 00:00:00
+type: "tags"
+---
+```
+
+!> the type must be `tags`! So as the `categories`.
+
+Then set the `melody.yml`
+
+```yaml
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+```
+
+you can even change the menu-item's name.
+
+For example:
+
+```yaml
+menu:
+  Blog: /
+  Posts: /archives
+  MyTags: /tags
+  MyCategories: /categories
+```
+
+## Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34598665-08279518-f229-11e7-892d-9d869ca915b5.png)
+
+------
+
 # Top-img
 
 `Top-img` is the `theme-melody` most magic option. It can have `true` or `false` or `specific img url` values.
@@ -213,6 +260,34 @@ QR_code:
 ## Screenshot
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
+
+------
+
+# Post adv area
+
+!> Since v1.4
+
+Get a adv area for your post! You can put an adv or a music player and so on. It's up to you.
+
+Set the `melody.yml`
+
+```yaml
+adv:
+  enable: true
+  info: # the adv you want to show
+```
+
+For example:
+
+```yaml
+adv:
+  enable: true
+  info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="728" height="90"></a>
+```
+
+## Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34594225-c3d1e0f8-f20a-11e7-9f0b-ed99e4f26305.png)
 
 ------
 

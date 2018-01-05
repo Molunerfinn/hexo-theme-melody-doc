@@ -6,6 +6,8 @@
 
 # Comments
 
+!> You can only choose one comments system for your blog or theme-melody will choose one for you if you enable two or more comments systems.
+
 ## Disqus
 
 Sign up the [disqus](https://disqus.com/), setup your own disqus, and enable the disqus in `theme-melody`
@@ -19,9 +21,65 @@ disqus:
   count: true # or false. It show the comments of your post
 ```
 
+## Laibili
+
+!> Since v1.4
+
+Sign up the [laibili](http://www.laibili.com.cn/), setup your own laibili, and enable the laibili in `theme-melody`
+
+Set the `melody.yml`
+
+```yaml
+laibili:
+  enable: true # or false
+  uid: your laibili uid
+```
+
+The laibili uid you can find in here:
+
+![](https://user-images.githubusercontent.com/12621342/34594229-c4e35800-f20a-11e7-947b-6e0a29537b1e.jpg)
+
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34594228-c46d0088-f20a-11e7-904d-32e3faa3159e.jpg)
+
+## Gitment
+
+!> Since v1.4
+
+Follow the guide of [gitment](https://github.com/imsun/gitment) to get your github Oauth app's client id and secret.
+
+And then set the `melody.yml`:
+
+```yaml
+gitment:
+  enable: true # or false
+  owner: your github name 
+  repo: your github repo 
+  client_id: your client id
+  client_secret: your client secret 
+```
+
+For example:
+
+```yaml
+gitment:
+  enable: true
+  owner: Molunerfinn
+  repo: Molunerfinn.github.io
+  client_id: xxxx 
+  client_secret: yyyy 
+```
+
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34594227-c4240c20-f20a-11e7-8463-64386439207f.jpg)
+
 ------
 
 # Share
+
+!> You can only choose one share system for your blog or theme-melody will choose one for you if you enable two or more share systems.
 
 ## AddThis
 
@@ -36,6 +94,30 @@ addThis:
   enable: true # or false
   pubid: your pub-id
 ```
+
+## Sharejs
+
+Check the [sharejs](https://github.com/overtrue/share.js/) for more details.
+
+Set the `melody.yml`
+
+```yaml
+sharejs:
+  enable: true
+  disabled_sites: the sites you don't want to display
+```
+
+For example:
+
+```yaml
+sharejs:
+  enable: true
+  disabled_sites: google,facebook
+```
+
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34594230-c537c5e8-f20a-11e7-9d52-267f3456aa22.png)
 
 ------
 

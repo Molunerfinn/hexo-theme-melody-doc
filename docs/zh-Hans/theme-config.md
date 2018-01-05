@@ -89,6 +89,53 @@ social:
 
 ------
 
+# 导航菜单
+
+在右上角的区域是导航菜单项。Hexo有默认的`/`和`/archives`的路径。如果你想拥有其他比如`tags`和`categories`的页面，请按照下面步骤来操作：
+
+1. 前往你的Hexo博客的根目录
+2. 输入`hexo new page tags`
+3. 你会找到`source/tags/index.md`这个文件
+4. 修改这个文件：
+
+```
+---
+title: tags
+date: 2018-01-05 00:00:00
+type: "tags"
+---
+```
+
+!> type必须是`tags`！如果你要增加`categories`页面的话也是一样的。
+
+然后配置`melody.yml`
+
+```yaml
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+```
+
+你也可以修改菜单项名称：
+
+比如：
+
+```yaml
+menu:
+  Blog: /
+  Posts: /archives
+  MyTags: /tags
+  MyCategories: /categories
+```
+
+## 截图
+
+![](https://user-images.githubusercontent.com/12621342/34598665-08279518-f229-11e7-892d-9d869ca915b5.png)
+
+------
+
 # 顶部图
 
 `顶部图`是`theme-melody`最神奇的配置项. 它拥有`true`、`false`或者`具体图片url`三种值.
@@ -214,6 +261,32 @@ QR_code:
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
 
 ------
+
+# 文章广告区
+
+!> 版本1.4
+
+在你的文章页面里加上广告！你可以放置一个你自己想展示的广告或者也可以是个音乐播放器等等。这个区域你做主。
+
+配置`melody.yml`
+
+```yaml
+adv:
+  enable: true
+  info: # 你想展示的内容
+```
+
+例如:
+
+```yaml
+adv:
+  enable: true
+  info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="728" height="90"></a>
+```
+
+## 截图 
+
+![](https://user-images.githubusercontent.com/12621342/34594225-c3d1e0f8-f20a-11e7-9f0b-ed99e4f26305.png)
 
 # 头像
 

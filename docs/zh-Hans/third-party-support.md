@@ -6,6 +6,8 @@
 
 # 评论系统
 
+!> 你只能为你的博客选择一个评论系统。否则theme-melody将会在你开启的两个或者更多的评论系统里选择其中一个。
+
 ## Disqus
 
 注册[disqus](https://disqus.com/)，配置你自己的disqus，然后在`theme-melody`里开启它。
@@ -19,9 +21,65 @@ disqus:
   count: true # or false. 开启将展示出你的文章的评论数
 ```
 
+## Laibili（来必力）
+
+!> 版本1.4
+
+注册[来必力](http://www.laibili.com.cn/)，配置你自己的来必力设置，然后在`theme-melody`里开启它。
+
+配置`melody.yml`
+
+```yaml
+laibili:
+  enable: true # or false
+  uid: 你的laibili的uid
+```
+
+laibili的uid你能在这里找到:
+
+![](https://user-images.githubusercontent.com/12621342/34594229-c4e35800-f20a-11e7-947b-6e0a29537b1e.jpg)
+
+### 截图
+
+![](https://user-images.githubusercontent.com/12621342/34594228-c46d0088-f20a-11e7-904d-32e3faa3159e.jpg)
+
+## Gitment
+
+!> Since v1.4
+
+遵循[gitment](https://github.com/imsun/gitment)的指示去获取你的github Oauth 应用的client id 和 secret值。
+
+然后配置`melody.yml`:
+
+```yaml
+gitment:
+  enable: true # or false
+  owner: 你的github用户名 
+  repo: 你的github仓库 
+  client_id: 你的client id
+  client_secret: 你的client secret 
+```
+
+举例:
+
+```yaml
+gitment:
+  enable: true
+  owner: Molunerfinn
+  repo: Molunerfinn.github.io
+  client_id: xxxx 
+  client_secret: yyyy 
+```
+
+### 截图
+
+![](https://user-images.githubusercontent.com/12621342/34594227-c4240c20-f20a-11e7-8463-64386439207f.jpg)
+
 ------
 
 # 分享系统
+
+!> 你只能为你的博客选择一个分享系统。否则theme-melody将会在你开启的两个或者更多的分享系统里选择其中一个。
 
 ## AddThis
 
@@ -36,6 +94,30 @@ addThis:
   enable: true # or false
   pubid: 你的pub-id
 ```
+
+## Sharejs
+
+如果你不知道[sharejs](https://github.com/overtrue/share.js/)，看看它的说明。
+
+配置`melody.yml`
+
+```yaml
+sharejs:
+  enable: true
+  disabled_sites: 你不想分享的站点
+```
+
+举例：
+
+```yaml
+sharejs:
+  enable: true
+  disabled_sites: google,facebook
+```
+
+### 截图
+
+![](https://user-images.githubusercontent.com/12621342/34594230-c537c5e8-f20a-11e7-9d52-267f3456aa22.png)
 
 ------
 
