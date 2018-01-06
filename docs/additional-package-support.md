@@ -27,7 +27,7 @@ Then put `manifest.json` into your hexo site `source/` folder.
 
 ## Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fk1eksl51kj21z20ogjyo.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635943-b50a2810-f2d1-11e7-995b-526e10da55dc.png)
 
 ------
 
@@ -48,4 +48,4 @@ wordcount:
 
 ## Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fksgxun0joj21z20todl2.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635947-be617e0e-f2d1-11e7-918e-594e1a22ab90.png)

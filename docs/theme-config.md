@@ -47,21 +47,21 @@ highlight: default
 
 > default
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xjkx0j212k0h8gop.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635716-7cab20ee-f2ce-11e7-94cb-9d5a43adc682.png)
 
 > darker
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xhpzmj212o0ha77e.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635714-7348ddf2-f2ce-11e7-8c0a-d078d9c2d9ef.png)
 
 
 > pale night
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xnytuj212m0h6whm.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635710-6a552d2c-f2ce-11e7-8420-199f60705522.png)
 
 
 > light
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xkvwmj212g0h8ad5.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635718-85337180-f2ce-11e7-8be3-cb01257c2c49.png)
 
 ## Copy support
 
@@ -85,7 +85,7 @@ social:
 
 ## Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635719-8aaf7276-f2ce-11e7-9361-35aac9b5dab1.png)
 
 ------
 
@@ -152,31 +152,31 @@ There are Screenshots of the three different values:
 
 > For the index site page
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635727-95965470-f2ce-11e7-9223-11189b86210b.png)
 
 > For the post page
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf1226nrj21z20u2gr6.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635728-99bed54a-f2ce-11e7-9d81-599132cbaf6a.png)
 
 - `top_img: false`
 
 > For the index site page
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbeyeimscj21z20y0ju7.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635729-9f0f060a-f2ce-11e7-8249-4a15bec8499a.png)
 
 > For the post page
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbeyf0x5sj21z20xoal5.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635731-a43bf02a-f2ce-11e7-9aa2-b1474b3cd257.png)
 
 - `top_img: https://xxxxx.jpg`
 
 > For the index site page
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf9wlz0qj21z20xy7wk.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635734-a8f03ac2-f2ce-11e7-8afe-512c4eded68d.png)
 
 > For the post page
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf9nwhm0j21z20ue1l0.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635736-ad06cbee-f2ce-11e7-951d-c40341b396c0.png)
 
 ## Set the specific post-item's self top-img
 
@@ -214,7 +214,7 @@ In the top of a post, you can see the date of post and the categories of post. I
 The following Screenshots shows the tags:
 
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635738-b3769ce8-f2ce-11e7-9096-16c82c3d24d8.png)
 
 ------
 
@@ -235,7 +235,7 @@ post_copyright:
 
 ## Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635740-b80da882-f2ce-11e7-9bc1-8664f39d6e17.png)
 
 ------
 
@@ -259,7 +259,7 @@ QR_code:
 
 ## Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635742-bcb9f980-f2ce-11e7-9a3a-892695a6d666.png)
 
 ------
 
@@ -301,7 +301,7 @@ avatar: https://xxxx.jpg
 
 ## Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635748-c5962902-f2ce-11e7-9d52-1d343e868dbb.png)
 
 ------
 
@@ -321,7 +321,7 @@ links:
 
 ## Screenshot:
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635749-ca9a1b98-f2ce-11e7-9260-ac9052332ace.png)
 
 ------
 
@@ -340,11 +340,11 @@ toc:
 
 > `enable: true`
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbgcwyvbrj21z21307fh.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635750-cef0b3f0-f2ce-11e7-8cd6-019b3399d861.png)
 
 > `enable: false`
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635751-d3428492-f2ce-11e7-9fb5-053dcaa44e5f.png)
 
 ------
 
@@ -360,4 +360,4 @@ since: 2013
 
 ## Screenshot:
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635752-d82a78ac-f2ce-11e7-9081-e89425eb6a8c.png)

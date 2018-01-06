@@ -21,6 +21,10 @@ disqus:
   count: true # or false. 开启将展示出你的文章的评论数
 ```
 
+### 截图
+
+![](https://user-images.githubusercontent.com/12621342/34635880-f8a72e84-f2d0-11e7-9343-1f69da841741.png)
+
 ## Laibili（来必力）
 
 !> 版本1.4
@@ -94,6 +98,10 @@ addThis:
   enable: true # or false
   pubid: 你的pub-id
 ```
+
+### 截图
+
+![](https://user-images.githubusercontent.com/12621342/34635919-56cf9bea-f2d1-11e7-9d30-562e55363706.png)
 
 ## Sharejs
 

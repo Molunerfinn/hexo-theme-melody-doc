@@ -21,6 +21,10 @@ disqus:
   count: true # or false. It show the comments of your post
 ```
 
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34635880-f8a72e84-f2d0-11e7-9343-1f69da841741.png)
+
 ## Laibili
 
 !> Since v1.4
@@ -85,7 +89,7 @@ gitment:
 
 > Find your pub-id
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcj0cbbazj21bq0aqwg3.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635848-777f9fc6-f2d0-11e7-9df1-2dfe1df1f99a.png)
 
 Set the `melody.yml`
 
@@ -94,6 +98,10 @@ addThis:
   enable: true # or false
   pubid: your pub-id
 ```
+
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34635919-56cf9bea-f2d1-11e7-9d30-562e55363706.png)
 
 ## Sharejs
 
@@ -145,11 +153,11 @@ algolia_search:
 
 > Click the search icon
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcjkvvavvj21z20uktdp.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635851-7cb1aa5c-f2d0-11e7-8e8f-1c382f6f613a.png)
 
 > Search results
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcjmc7d92j21z00ws44q.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635852-8003827a-f2d0-11e7-9975-c1d0bb959122.png)
 
 ## Local search
 
@@ -169,7 +177,7 @@ local_search:
 
 ### Screenshots
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fksfyhkvruj21z20ug44m.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635853-8404ead0-f2d0-11e7-8feb-936dec267523.png)
 
 ------
 
@@ -181,7 +189,7 @@ local_search:
 
 2. Find your baidu tongji code
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjck7o612hj21mq0dqtc5.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635855-880120a4-f2d0-11e7-94a4-739bbcc8c9ea.png)
 
 3\. Set the `melody.yml`
 
@@ -195,7 +203,7 @@ baidu_analytics: your code
 
 2. Find your google analytics code
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjckd6djgtj218e05edg2.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635856-8b9433dc-f2d0-11e7-8cf8-878ddf323416.png)
 
 3\. Set the `melody.yml`
 
@@ -234,7 +242,7 @@ busuanzi:
 
 ### Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcl0gur6tj21z20a8q4t.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635857-8f6f4032-f2d0-11e7-9cdf-4957d9cc0aa1.png)
 
 ------
 
@@ -250,7 +258,7 @@ mathjax:
 
 ### Screenshots
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635861-934ef38c-f2d0-11e7-80ae-b37f6b20048a.png)
 
 ------
 
@@ -270,5 +278,5 @@ Try to click the page body!
 
 ### Screenshot
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)
 
