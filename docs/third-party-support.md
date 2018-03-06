@@ -79,6 +79,54 @@ gitment:
 
 ![](https://user-images.githubusercontent.com/12621342/34594227-c4240c20-f20a-11e7-8463-64386439207f.jpg)
 
+## Gitalk
+
+!> Since v1.4.3
+
+Follow the guide of [gitalk](https://github.com/gitalk/gitalk) to get your github Oauth app's client id and secret.
+
+And then set the `melody.yml`:
+
+```yaml
+gitalk:
+  enable: true
+  client_id: your client id 
+  client_secret: your client secret
+  repo: your github repo
+  owner: your github name
+  admin: Github repo owner and collaborators, only these guys can initialize github issues
+```
+
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/37018676-34892058-2150-11e8-92a0-62d8ed83896c.png)
+
+## Valine
+
+!> Since v1.4.3
+
+Follow the guide of [Valine](https://github.com/xCss/Valine) to setup your LeanCloud apps.
+
+And then set the `melody.yml`:
+
+```yaml
+valine:
+  enable: false # if you want use valine,please set this value is ture
+  appId:  # leancloud application app id
+  appKey:  # leancloud application app key
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 10 # comment list page size
+  avatar: mm # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en
+  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header in
+```
+
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/37018884-f9e8fc56-2150-11e8-906a-ec0a3f1d1e91.png)
+
 ------
 
 # Share
