@@ -139,6 +139,22 @@ menu:
 
 ------
 
+# Auto excerpt
+
+!> Since v1.5
+
+Now, if you do not set `auto_excerpt` options in `melody.yml`, your posts will be all shown in the index page. If you add `<!-- more -->` mark in your post, it will be replaced by a `Read More` button. If you don't want to add `<!-- more -->` in every posts, you can set `auto_excerpt` to auto cut your post in the index page.
+
+set the `melody.yml`:
+
+```yaml
+auto_excerpt:
+  enable: true
+  length: 150
+```
+
+------
+
 # Top-img
 
 `Top-img` is the `theme-melody` most magic option. It can have `true` or `false` or `specific img url` values.
