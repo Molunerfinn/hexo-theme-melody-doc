@@ -98,6 +98,8 @@ social:
 3. 你会找到`source/tags/index.md`这个文件
 4. 修改这个文件：
 
+> 更多关于创建页面相关的请参考[主题页面](zh-Hans/theme-pages.md)的详细介绍。
+
 ```
 ---
 title: tags

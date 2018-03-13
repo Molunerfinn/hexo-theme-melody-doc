@@ -98,6 +98,8 @@ In the top-right area, there are nav menu items. Hexo has default path for `/` a
 3. you will find `source/tags/index.md`
 4. modify the `index.md`
 
+> More information about pages, please check the [theme-pages](theme-pages.md) for more details.
+
 ```
 ---
 title: tags
@@ -129,6 +131,7 @@ menu:
   MyTags: /tags
   MyCategories: /categories
 ```
+
 
 ## Screenshot
 

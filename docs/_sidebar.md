@@ -1,5 +1,6 @@
 - [**Home**](/)
 - [**Quick start**](quick-start.md)
 - [**Theme config**](theme-config.md)
+- [**Theme pages**](theme-pages.md)
 - [**Third-party support**](third-party-support.md)
 - [**Additional-package support**](additional-package-support.md)

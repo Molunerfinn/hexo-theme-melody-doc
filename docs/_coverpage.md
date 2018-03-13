@@ -1,6 +1,6 @@
 ![logo](imgs/logo.png)
 
-# Hexo-theme-melody <small>1.4</small>
+# Hexo-theme-melody <small>1.5</small>
 
 > A simple & beautiful & fast theme for Hexo
 
