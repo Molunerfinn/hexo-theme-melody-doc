@@ -40,7 +40,7 @@ language: en
 配置`melody.yml`
 
 ```yaml
-highlight: default # default/darker/pale night/light
+highlight_theme: default # default/darker/pale night/light
 ```
 
 ## 截图

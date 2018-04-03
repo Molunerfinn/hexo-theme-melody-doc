@@ -40,7 +40,7 @@ The default language is en.
 set the `melody.yml`
 
 ```yaml
-highlight: default
+highlight_theme: default
 ```
 
 ## Screenshots
