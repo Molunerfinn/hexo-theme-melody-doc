@@ -324,6 +324,25 @@ avatar: https://xxxx.jpg
 
 ------
 
+# Follow Me
+
+!> Since v1.5.4
+
+Set the `melody.yml`.
+
+```yaml
+follow:
+  enable: true
+  url: 'https://github.com/USERNAME'
+  text: 'Follow Me'
+```
+
+## Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/39968647-22a87a3a-5703-11e8-9e61-2b5b540f98a7.png)
+
+------
+
 # Friend links
 
 In the sidebar, you can set some links to your friends or some web pages. The format is `name: url`

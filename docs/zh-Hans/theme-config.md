@@ -237,7 +237,7 @@ post_meta:
 
 # 文章版权
 
-!> 版本 1.1
+!> 版本 v1.1
 
 为你的博客文章展示文章版权和许可协议。
 
@@ -258,7 +258,7 @@ post_copyright:
 
 # 文章相关二维码
 
-!> 版本 1.1
+!> 版本 v1.1
 
 在你每篇文章的结尾，给读者展示你自己的二维码。二维码的图片url以及相关说明都取决于你。配置格式如下：
 
@@ -282,7 +282,7 @@ QR_code:
 
 # 文章广告区
 
-!> 版本1.4
+!> 版本 v1.4
 
 在你的文章页面里加上广告！你可以放置一个你自己想展示的广告或者也可以是个音乐播放器等等。这个区域你做主。
 
@@ -317,6 +317,25 @@ avatar: https://xxxx.jpg
 ## 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
+
+------
+
+# Follow Me 按钮
+
+!> 版本 v1.5.4
+
+配置`melody.yml`
+
+```yaml
+follow:
+  enable: true
+  url: 'https://github.com/USERNAME'
+  text: 'Follow Me'
+```
+
+## 截图
+
+![](https://user-images.githubusercontent.com/12621342/39968647-22a87a3a-5703-11e8-9e61-2b5b540f98a7.png)
 
 ------
 
