@@ -304,6 +304,14 @@ mathjax:
   cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
 ```
 
+And you need to change the default `markdown` render engine to fit this.
+
+Check: [hexo-renderer-kramed](https://www.npmjs.com/package/hexo-renderer-kramed)
+
+Get in your **hexo site folder** and do the following things(**Not the theme-melody folder!**):
+
+![](https://user-images.githubusercontent.com/12621342/41012862-49cd9ed0-6976-11e8-8ef2-28c6b4208aa8.png)
+
 ### Screenshots
 
 ![](https://user-images.githubusercontent.com/12621342/34635861-934ef38c-f2d0-11e7-80ae-b37f6b20048a.png)

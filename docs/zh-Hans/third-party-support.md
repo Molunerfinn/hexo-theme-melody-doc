@@ -302,6 +302,15 @@ mathjax:
   cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML # required
 ```
 
+然后你需要修改一下默认的`markdown`渲染引擎来实现MathJax的效果。
+
+查看: [hexo-renderer-kramed](https://www.npmjs.com/package/hexo-renderer-kramed)
+
+以下操作在你hexo博客的目录下(**不是theme-melody的目录!**):
+
+![](https://user-images.githubusercontent.com/12621342/41012862-49cd9ed0-6976-11e8-8ef2-28c6b4208aa8.png)
+
+
 ### 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
