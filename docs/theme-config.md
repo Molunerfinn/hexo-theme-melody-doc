@@ -30,12 +30,13 @@ The default language is en.
 
 # Highlight theme
 
-`theme-melody` supports the [Material Theme](https://github.com/equinusocio/material-theme) code highlight and full four color schemes:
+`theme-melody` supports the [Material Theme](https://github.com/equinusocio/material-theme) code highlight and full five color schemes:
 
 - default
 - darker
 - pale night
 - light
+- ocean (since v1.5.5)
 
 set the `melody.yml`
 
@@ -62,6 +63,10 @@ highlight_theme: default
 > light
 
 ![](https://user-images.githubusercontent.com/12621342/34635718-85337180-f2ce-11e7-8be3-cb01257c2c49.png)
+
+> ocean (since v1.5.5)
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/ocean-highlight.png)
 
 ## Copy support
 
@@ -388,7 +393,7 @@ toc:
 
 # Since
 
-`Since` is a option to show people the age of your site. It's position is in the bottom of the page.
+`Since` is an option to show people the age of your site. It's position is in the bottom of the page.
 
 set the `melody.yml`
 
@@ -399,3 +404,21 @@ since: 2013
 ## Screenshot:
 
 ![](https://user-images.githubusercontent.com/12621342/34635752-d82a78ac-f2ce-11e7-9081-e89425eb6a8c.png)
+
+------
+
+# footer_custom_text
+
+!> Since v1.5.5
+
+`footer_custom_text` is an option for you to show some texts in the footer area. It supports HTML.
+
+set the `melody.yml`
+
+```yaml
+footer_custom_text: Hi, welcome to my <a href="https://molunerfinn.com">blog</a>!
+```
+
+## Screenshot:
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/footer_custom_text.png)

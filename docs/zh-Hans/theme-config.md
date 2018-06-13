@@ -30,12 +30,13 @@ language: en
 
 # 代码高亮主题
 
-`theme-melody` 支持了[Material Theme](https://github.com/equinusocio/material-theme)全部4种代码高亮样式：
+`theme-melody` 支持了[Material Theme](https://github.com/equinusocio/material-theme)全部5种代码高亮样式：
 
 - default
 - darker
 - pale night
 - light
+- ocean (从v1.5.5开始支持)
 
 配置`melody.yml`
 
@@ -62,6 +63,10 @@ highlight_theme: default # default/darker/pale night/light
 > light
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xkvwmj212g0h8ad5.jpg)
+
+> ocean
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/ocean-highlight.png)
 
 ## 支持代码复制
 
@@ -395,3 +400,21 @@ since: 2013
 ## 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
+
+------
+
+# 页脚自定义文本
+
+!> 版本 v1.5.5
+
+`footer_custom_text`是一个给你用来在页脚自定义文本的选项。通常你可以在这里写ICP备案号、码云声明文本等。支持HTML。
+
+配置`melody.yml`
+
+```yaml
+footer_custom_text: Hi, welcome to my <a href="https://molunerfinn.com">blog</a>!
+```
+
+## 截图
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/footer_custom_text.png)
