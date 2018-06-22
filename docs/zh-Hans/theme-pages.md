@@ -13,7 +13,7 @@ melody主题支持多种页面类型。
 
 ```
 ---
-title: tags
+title: 标签
 date: 2018-01-05 00:00:00
 type: "tags"
 ---
@@ -30,7 +30,7 @@ type: "tags"
 
 ```
 ---
-title: categories
+title: 分类
 date: 2018-01-05 00:00:00
 type: "categories"
 ---
