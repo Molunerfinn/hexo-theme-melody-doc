@@ -19,6 +19,14 @@ To have the PWA feature for `theme-melody`, you need to do the following things:
 pwa:
   enable: true
   manifest: # the url for the manifest.json, usually you can set to /manifest.json
+  # Since v1.5.6 you can modify the theme_color & icon for your PWA app.
+  # If you don't want to trouble, just ignore the following things
+  # See https://realfavicongenerator.net/
+  # theme_color: "#1B9EF3"
+  # apple_touch_icon: /apple-touch-icon.png
+  # favicon_32_32: /favicon-32x32.png
+  # favicon_16_16: /favicon-16x16.png
+  # mask_icon: /safari-pinned-tab.svg
 ```
 
 You can create a `manifest.json` fastly by visiting [Web App Manifest](https://app-manifest.firebaseapp.com/)

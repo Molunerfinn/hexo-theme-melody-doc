@@ -10,7 +10,7 @@
 
 # Language
 
-Set the root `_config.yml`
+Set the root `_config.yml`, not the `melody.yml`!
 
 ```yaml
 language: en
@@ -25,6 +25,34 @@ The default language is en.
 | default(en) | Molunerfinn |
 | zh-Hans     | Molunerfinn |
 | en          | Molunerfinn |
+
+------
+
+# Theme color
+
+!> Since v1.5.6
+
+Now you can change most of the theme color to whatever you like.
+
+Set the `melody.yml`, for example:
+
+!> color values must be quoted like `"#000"` not `#000` or may cause error!
+
+```yaml
+theme_color:
+  enable: true # or false -> to use the default theme
+  main: "#000"
+  paginator: "#000"
+  button_hover: "#49B1F5"
+  text_selection: "#000"
+  link_color: "#000"
+  hr_color: "#000"
+  meta_color: "#000"
+```
+
+## Screenshot
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/new_theme_for_melody.png)
 
 ------
 
@@ -71,6 +99,56 @@ highlight_theme: default
 ## Copy support
 
 As you can see, in the top-right corner of code area, it's a copy icon for you to copy the code by clicking.
+
+------
+
+# Code Word Wrap
+
+> Since v1.5.6
+
+By default, `hexo-highlight` generate the code in long lines. If you don't want a scroll bar in your code area, then you can enable this feature.
+
+set the `melody.yml`
+
+```yaml
+code_word_wrap: true
+```
+
+And find the root `_config.yml`, you can see:
+
+```yaml
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  # ...
+```
+
+now change the `line_number` to `false`:
+
+```yaml
+highlight:
+  enable: true
+  line_number: false # <- change this
+  auto_detect: false
+  tab_replace:
+```
+
+And then run `hexo clean` & `hexo g` to generate new code!
+
+Take a look:
+
+## Screenshots
+
+> Before set the `code_word_wrap`:
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/no_code_wrap_for_melody.png)
+
+> After set the `code_word_wrap`:
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/code_wrap_for_melody.png)
+
 
 ------
 
@@ -149,6 +227,8 @@ menu:
 !> Since v1.5
 
 Now, if you do not set `auto_excerpt` options in `melody.yml`, your posts will be all shown in the index page. If you add `<!-- more -->` mark in your post, it will be replaced by a `Read More` button. If you don't want to add `<!-- more -->` in every posts, you can set `auto_excerpt` to auto cut your post in the index page.
+
+!> Notice: using this feature may cause error with the code area. So if you want to show code in the index page, then you'd better not use this feature!
 
 set the `melody.yml`:
 
@@ -372,12 +452,32 @@ links:
 
 You can have a toc catalog for your post. It's in your sidebar and will auto expand headers depends on your scroll top.
 
+> Since v1.5.6 you can choose to show the number of toc list or not.
+
 set the `melody.yml`
 
 ```yaml
 toc:
   enable: true # or false
+  number: true # or false. Since v1.5.6
 ```
+
+## Set the specific post-item's self toc-number
+
+Just add the `toc_number` in your post header in the specific `md` file
+
+```yaml
+title: Hi, theme-melody!
+tags:
+  - hexo
+  - hexo theme
+toc_number: false   # < add toc_number to here. Since v1.5.6
+date: 2017-09-07
+---
+```
+
+!> After that, your specific post will have it's own top-number control instead of the theme toc-number value
+
 
 ## Screenshots:
 
@@ -388,6 +488,10 @@ toc:
 > `enable: false`
 
 ![](https://user-images.githubusercontent.com/12621342/34635751-d3428492-f2ce-11e7-9fb5-053dcaa44e5f.png)
+
+> `number: false`
+
+![](https://user-images.githubusercontent.com/12621342/41695450-a2f73d28-7541-11e8-80d1-65ad7f6749f4.png)
 
 ------
 

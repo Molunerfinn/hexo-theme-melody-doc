@@ -1,6 +1,6 @@
 # Theme-pages
 
-Theme-melody supports several kinds of pages.
+melody主题支持多种页面类型。
 
 ------
 

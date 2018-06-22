@@ -28,6 +28,34 @@ language: en
 
 ------
 
+# 自定义主题色
+
+!> 版本 v1.5.6
+
+现在你可以修改大部分主题用到的颜色，改成你所喜欢的任何颜色。
+
+配置`melody.yml`，比如：
+
+!> 颜色值必须被双引号包裹，就像`"#000"`而不是`#000`。否则将会在构建的时候报错！
+
+```yaml
+theme_color:
+  enable: true # or false -> to use the default theme
+  main: "#000"
+  paginator: "#000"
+  button_hover: "#49B1F5"
+  text_selection: "#000"
+  link_color: "#000"
+  hr_color: "#000"
+  meta_color: "#000"
+```
+
+## 截图
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/new_theme_for_melody.png)
+
+------
+
 # 代码高亮主题
 
 `theme-melody` 支持了[Material Theme](https://github.com/equinusocio/material-theme)全部5种代码高亮样式：
@@ -71,6 +99,55 @@ highlight_theme: default # default/darker/pale night/light
 ## 支持代码复制
 
 可以发现，在代码区域右上角有一个复制的图标。你可以点击这个图标就能够轻松将代码复制到你的粘贴板。
+
+------
+
+# 代码换行
+
+!> 版本 v1.5.6
+
+在默认情况下，`hexo-highlight`在编译的时候不会实现代码自动换行。如果你不希望在代码块的区域里有横向滚动条的话，那么你可以考虑开启这个功能。
+
+配置`melody.yml`
+
+```yaml
+code_word_wrap: true
+```
+
+然后找到你站点的hexo配置文件`_config.yml`，你能看到类似如下`highlight`的配置：
+
+```yaml
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  # ...
+```
+
+请将`line_number`改成`false`:
+
+```yaml
+highlight:
+  enable: true
+  line_number: false # <- 改这里
+  auto_detect: false
+  tab_replace:
+```
+
+接着运行一下`hexo clean`后再运行`hexo g`生成新的文章。
+
+看下效果吧：
+
+## 截图
+
+> 设置`code_word_wrap`之前:
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/no_code_wrap_for_melody.png)
+
+> 设置`code_word_wrap`之后:
+
+![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/code_wrap_for_melody.png)
 
 ------
 
@@ -149,6 +226,8 @@ menu:
 
 现在，从版本1.5开始，如果你没有在`melody.yml`里设置`auto_excerpt`的选项，你的文章将会在首页上完整地展现出来。如果你在文章里加上了`<!-- more -->`标记，那么它将会被替换成`阅读更多`的一个按钮。如果你不想在每篇文章里都加上`<!-- more -->`这个标记，那么你可以通过设置`auto_excerpt`来自动帮你生成文章节选。（默认取前150个字）
 
+!> 注意：如果开启了自动节选功能，代码块的显示将有可能不正常。所以如果在首页想显示代码的请不要开启这个功能！
+
 配置`melody.yml`：
 
 ```yaml
@@ -156,6 +235,7 @@ auto_excerpt:
   enable: true
   length: 150
 ```
+
 
 ------
 
@@ -368,12 +448,31 @@ links:
 
 你的文章能够拥有一个清晰的目录列表。目录位于侧边栏，并且会随着滚动条的滚动自动展开目录结构。
 
+> 从版本v1.5.6开始，你可以选择是否显示目录前的章节数字。
+
 配置`melody.yml`
 
 ```yaml
 toc:
   enable: true # or false
+  number: true # or false. 版本v1.5.6新增
 ```
+
+## 为特定的文章配置特定的目录章节数字
+
+在你的文章`md`文件的头部，加入`toc_number`项，并配置`true`或者`false`即可。
+
+```yaml
+title: Hi, theme-melody!
+tags:
+  - hexo
+  - hexo theme
+toc_number: false   # < add toc_number to here. 版本v1.5.6新增
+date: 2017-09-07
+---
+```
+
+!> 配置之后你的特定的文章将会拥有它自己的目录数字的显示与否，而不会受全局的配置影响。
 
 ## 截图
 
@@ -384,6 +483,10 @@ toc:
 > `enable: false`
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
+
+> `number: false`
+
+![](https://user-images.githubusercontent.com/12621342/41695450-a2f73d28-7541-11e8-80d1-65ad7f6749f4.png)
 
 ------
 

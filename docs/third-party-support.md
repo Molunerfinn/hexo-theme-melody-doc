@@ -179,6 +179,10 @@ sharejs:
 
 # Search
 
+After set the search system, you will have a global search button in the navbar since v1.5.6!
+
+![](https://user-images.githubusercontent.com/12621342/41663525-3a014f0e-74d6-11e8-8d7f-92ecb412a628.png)
+
 ## Algolia
 
 1. You should install [hexo-algolia](https://github.com/oncletom/hexo-algolia) or [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch). Follow their doc to setup.

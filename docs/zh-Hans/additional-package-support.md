@@ -19,6 +19,14 @@
 pwa:
   enable: true
   manifest: # manifest.json的url, 通常可以设置成 /manifest.json
+  # 从v1.5.6开始你可以修改PWA的主题色和icon了。
+  # 如果不明白这些有什么用，或者不想配置可以忽视下面的配置
+  # See https://realfavicongenerator.net/
+  # theme_color: "#1B9EF3"
+  # apple_touch_icon: /apple-touch-icon.png
+  # favicon_32_32: /favicon-32x32.png
+  # favicon_16_16: /favicon-16x16.png
+  # mask_icon: /safari-pinned-tab.svg
 ```
 
 你可以创建快速通过[Web App Manifest](https://app-manifest.firebaseapp.com/)创建一个 `manifest.json`。 
