@@ -83,7 +83,7 @@ gitment:
 
 !> Since v1.4.3
 
-遵循[gitment](https://github.com/gitalk/gitalk)的指示去获取你的github Oauth 应用的client id 和 secret值。以及查看它的相关配置说明。
+遵循[gitalk](https://github.com/gitalk/gitalk)的指示去获取你的github Oauth 应用的client id 和 secret值。以及查看它的相关配置说明。
 
 然后配置`melody.yml`:
 
