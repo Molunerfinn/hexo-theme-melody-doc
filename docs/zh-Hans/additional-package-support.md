@@ -11,7 +11,7 @@
 要为`theme-melody`配上PWA特性, 你需要如下几个步骤:
 
 1. 打开hexo工作目录
-2. `npm install hexo-offline` 或者 `yarn add hexo-offline`
+2. `npm install hexo-offline --save` 或者 `yarn add hexo-offline`
 3. 修改`_config.yml` -> 查看[hexo-offline](https://github.com/JLHwung/hexo-offline)的官方文档
 4. 配置`melody.yml`:
 
@@ -46,7 +46,7 @@ pwa:
 要为`theme-melody`配上字数统计特性, 你需要如下几个步骤:
 
 1. 打开hexo工作目录
-2. `npm install hexo-wordcount` or `yarn add hexo-wordcount`
+2. `npm install hexo-wordcount --save` or `yarn add hexo-wordcount`
 3. 配置`melody.yml`:
 
 ```yaml

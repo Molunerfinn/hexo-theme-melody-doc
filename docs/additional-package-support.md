@@ -11,7 +11,7 @@
 To have the PWA feature for `theme-melody`, you need to do the following things:
 
 1. Go to the hexo site folder
-2. `npm install hexo-offline` or `yarn add hexo-offline`
+2. `npm install hexo-offline --save` or `yarn add hexo-offline`
 3. Modify the `_config.yml` -> see the doc of [hexo-offline](https://github.com/JLHwung/hexo-offline)
 4. Set the `melody.yml`:
 
@@ -46,7 +46,7 @@ Then put `manifest.json` into your hexo site `source/` folder.
 To have the word counting feature for `theme-melody`, you need to do the following things:
 
 1. Go to the hexo site folder
-2. `npm install hexo-wordcount` or `yarn add hexo-wordcount`
+2. `npm install hexo-wordcount --save` or `yarn add hexo-wordcount`
 3. Set the `melody.yml`
 
 ```yaml
