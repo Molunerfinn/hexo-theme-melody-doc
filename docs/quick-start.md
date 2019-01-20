@@ -12,7 +12,7 @@ For example, get into the `themes/melody` folder and then
 
 `git checkout tags/v1.0` > Change the theme version to v1.0
 
-> You can view all the versions by `git tags -l`
+> You can view all the versions by `git tag -l`
 
 if you want to try the latest feature of `theme-melody`, you can use the `dev` branch：
 
