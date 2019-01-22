@@ -30,7 +30,7 @@ Set theme in the hexo work folder's root config file `_config.yml`:
 theme: melody
 ```
 
-!> If you don't have pug & stylus renderder, please `npm install hexo-renderer-jade hexo-renderer-stylus --save` or `yarn add hexo-renderer-jade hexo-renderer-stylus`
+!> If you don't have pug & stylus renderder, please `npm install hexo-renderer-pug hexo-renderer-stylus --save` or `yarn add hexo-renderer-pug hexo-renderer-stylus`
 
 ## Configuration
 
