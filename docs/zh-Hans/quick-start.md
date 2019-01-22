@@ -28,7 +28,7 @@ git checkout dev
 theme: melody # 将主题设置成melody
 ```
 
-!> 如果你没有pug以及stylus的渲染器，请下载安装： `npm install hexo-renderer-jade hexo-renderer-stylus --save` or `yarn add hexo-renderer-jade hexo-renderer-stylus`
+!> 如果你没有pug以及stylus的渲染器，请下载安装： `npm install hexo-renderer-pug hexo-renderer-stylus --save` or `yarn add hexo-renderer-pug hexo-renderer-stylus`
 
 ## 配置
 
