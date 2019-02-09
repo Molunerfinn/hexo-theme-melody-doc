@@ -8,8 +8,8 @@
 
 ## 截图
 
-![PC端](https://i.loli.net/2019/02/09/5c5e15567c52d.jpg)
-![移动端](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
+![PC](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
+![Mobile](https://i.loli.net/2019/02/09/5c5e15567c52d.jpg)
 
 ------
 
