@@ -43,9 +43,9 @@ For more details, please see the official documentation for [hexo-offline] (http
 ```yaml
 pwa:
   enable: true
-  manifest: # manifest.json的url, 通常可以设置成 /manifest.json
-  # 从v1.5.6开始你可以修改PWA的主题色和icon了。
-  # 如果不明白这些有什么用，或者不想配置可以忽视下面的配置
+  manifest: # the url for the manifest.json, usually you can set to /manifest.json
+  # Since v1.5.6 you can modify the theme_color & icon for your PWA app.
+  # If you don't want to trouble, just ignore the following things
   # See https://realfavicongenerator.net/
   # theme_color: "#1B9EF3"
   # apple_touch_icon: /apple-touch-icon.png
