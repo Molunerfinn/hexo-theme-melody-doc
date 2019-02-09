@@ -6,13 +6,6 @@
 
 # PWA
 
-## 截图
-
-![PC](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
-![Mobile](https://i.loli.net/2019/02/09/5c5e15567c52d.jpg)
-
-------
-
 !> 版本 1.2
 
 要为`theme-melody`配上PWA特性, 你需要如下几个步骤:
@@ -117,6 +110,8 @@ pwa:
 ## 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fk1eksl51kj21z20ogjyo.jpg)
+![](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
+![](https://i.loli.net/2019/02/09/5c5e15567c52d.jpg)
 
 ------
 

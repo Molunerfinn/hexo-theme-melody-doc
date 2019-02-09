@@ -5,12 +5,7 @@
 ------
 
 # PWA 
-## Screenshot
 
-![PC](https://i.loli.net/2019/02/09/5c5e15567c52d.jpg)
-![Mobile](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
-
-------
 !> Since v1.2
 
 To have the PWA feature for `theme-melody`, you need to do the following things:
@@ -36,7 +31,7 @@ offline:
       options:
         origin: your_websie_url # can be replaced with your url
 ```
-For more details, please see the official documentation for [hexo-offline] (https://github.com/JLHwung/hexo-offline)
+For more details, please see the official documentation for [hexo-offline](https://github.com/JLHwung/hexo-offline)
 
 4. Turn on the pwa option in `melody.yml`.
 
@@ -104,18 +99,20 @@ pwa:
   }
 ```
 
-You can also quickly create `manifest.json` via [Web App Manifest] (https://app-manifest.firebaseapp.com/). (Web App Manifest requires at least one 512*512 pixel icon)
+You can also quickly create `manifest.json` via [Web App Manifest](https://app-manifest.firebaseapp.com/). (Web App Manifest requires at least one 512*512 pixel icon)
 
 6. You can check if the PWA configuration is in effect and the configuration is correct through the `Chrome` plugin `Lighthouse`.
     - Open the blog page
     - Launch the `Lighthouse` plugin (the `Lighthouse` plugin requires at least one 512*512 pixel icon)
 
-For more on PWA (Progressive Enhanced Web Applications), see [Google Tools for Web Developers] (https://developers.google.com/web/tools/lighthouse/audits/address-bar)
+For more on PWA (Progressive Enhanced Web Applications), see [Google Tools for Web Developers](https://developers.google.com/web/tools/lighthouse/audits/address-bar)
 
 
 ## Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635943-b50a2810-f2d1-11e7-995b-526e10da55dc.png)
+![](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
+![](https://i.loli.net/2019/02/09/5c5e15567c52d.jpg)
 
 ------
 
