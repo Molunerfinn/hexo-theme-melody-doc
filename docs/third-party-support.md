@@ -316,9 +316,42 @@ Get in your **hexo site folder** and do the following things(**Not the theme-mel
 
 ![](https://user-images.githubusercontent.com/12621342/41012862-49cd9ed0-6976-11e8-8ef2-28c6b4208aa8.png)
 
-### Screenshots
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635861-934ef38c-f2d0-11e7-80ae-b37f6b20048a.png)
+
+------
+
+# KaTeX
+
+!> Since v1.6
+
+Disable MathJax, and then modify your `melody.yml` to load `katex.min.css`:
+
+```yaml
+katex:
+  enable: true
+  cdn:
+    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+```
+
+You don't need `katex.min.js` to render math equations. Instead, you have to uninstall your old hexo render, and then install `hexo-renderer-markdown-it-plus`:
+
+```bash
+# Replace `hexo-renderer-kramed` with `your installed renderer`
+# You can check your installed renderer in your package.json
+npm un hexo-renderer-kramed --save
+# install `hexo-renderer-markdown-it-plus`
+npm i @upupming/hexo-renderer-markdown-it-plus --save
+```
+
+Note [`hexo-renderer-markdown-it-plus`](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus) is out-of-maintenance, so we use [`@upupming/hexo-renderer-markdown-it-plus`](https://github.com/upupming/hexo-renderer-markdown-it-plus). This fork makes use of [`@neilsustc/markdown-it-katex`](https://github.com/yzhang-gh/markdown-it-katex) which is also used by VS Code plugin [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown), so we will get latest KaTeX features such as `\tag{}`.
+
+Because KaTeX is faster and lightweight, there are fewer features than MathJax (right-click menu). For those are used to MathJax, we also added [*Copy As TeX Code*](https://github.com/upupming/katex-copytex) support for KaTeX, which is enabled by default.
+
+### Screenshot
+
+<img src=https://user-images.githubusercontent.com/24741764/52897430-47157e80-320f-11e9-821c-ba5517ae096f.gif height=600px>
 
 ------
 
