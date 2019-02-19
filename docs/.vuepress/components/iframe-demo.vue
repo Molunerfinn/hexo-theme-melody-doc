@@ -9,3 +9,8 @@ export default {
   }
 }
 </script>
+<style>
+  iframe {
+    border: 0;
+  }
+</style>
