@@ -1,3 +1,0 @@
-- Translation
- - [中文](/zh-Hans/)
- - [English](/)

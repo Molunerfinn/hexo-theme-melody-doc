@@ -1,14 +1,20 @@
+---
+sidebarDepth: 2
+---
+
 # Third-party-support
 
 > More third-party libs are coming soon.
 
 ------
 
-# Comments
+## Comments
 
-!> You can only choose one comments system for your blog or theme-melody will choose one for you if you enable two or more comments systems.
+::: warning
+You can only choose one comments system for your blog or theme-melody will choose one for you if you enable two or more comments systems.
+:::
 
-## Disqus
+### Disqus
 
 Sign up the [disqus](https://disqus.com/), setup your own disqus, and enable the disqus in `theme-melody`
 
@@ -21,13 +27,15 @@ disqus:
   count: true # or false. It show the comments of your post
 ```
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635880-f8a72e84-f2d0-11e7-9343-1f69da841741.png)
 
-## Laibili
+### Laibili
 
-!> Since v1.4
+::: tip
+Since v1.4
+:::
 
 Sign up the [laibili](http://www.laibili.com.cn/), setup your own laibili, and enable the laibili in `theme-melody`
 
@@ -43,13 +51,15 @@ The laibili uid you can find in here:
 
 ![](https://user-images.githubusercontent.com/12621342/34594229-c4e35800-f20a-11e7-947b-6e0a29537b1e.jpg)
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34594228-c46d0088-f20a-11e7-904d-32e3faa3159e.jpg)
 
-## Gitment
+### Gitment
 
-!> Since v1.4
+::: warning
+Since v1.4
+:::
 
 Follow the guide of [gitment](https://github.com/imsun/gitment) to get your github Oauth app's client id and secret.
 
@@ -75,13 +85,15 @@ gitment:
   client_secret: yyyy 
 ```
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34594227-c4240c20-f20a-11e7-8463-64386439207f.jpg)
 
-## Gitalk
+### Gitalk
 
-!> Since v1.4.3
+::: tip
+Since v1.4.3
+:::
 
 Follow the guide of [gitalk](https://github.com/gitalk/gitalk) to get your github Oauth app's client id and secret.
 
@@ -97,13 +109,15 @@ gitalk:
   admin: Github repo owner and collaborators, only these guys can initialize github issues
 ```
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/37018676-34892058-2150-11e8-92a0-62d8ed83896c.png)
 
-## Valine
+### Valine
 
-!> Since v1.4.3
+::: tip
+Since v1.4.3
+:::
 
 Follow the guide of [Valine](https://github.com/xCss/Valine) to setup your LeanCloud apps.
 
@@ -123,17 +137,19 @@ valine:
   guest_info: nick,mail,link #valine comment header in
 ```
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/37018884-f9e8fc56-2150-11e8-906a-ec0a3f1d1e91.png)
 
 ------
 
-# Share
+## Share
 
-!> You can only choose one share system for your blog or theme-melody will choose one for you if you enable two or more share systems.
+::: warning
+You can only choose one share system for your blog or theme-melody will choose one for you if you enable two or more share systems.
+:::
 
-## AddThis
+### AddThis
 
 > Find your pub-id
 
@@ -147,11 +163,11 @@ addThis:
   pubid: your pub-id
 ```
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635919-56cf9bea-f2d1-11e7-9d30-562e55363706.png)
 
-## Sharejs
+### Sharejs
 
 Check the [sharejs](https://github.com/overtrue/share.js/) for more details.
 
@@ -171,19 +187,19 @@ sharejs:
   disabled_sites: google,facebook
 ```
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34594230-c537c5e8-f20a-11e7-9d52-267f3456aa22.png)
 
 ------
 
-# Search
+## Search
 
 After set the search system, you will have a global search button in the navbar since v1.5.6!
 
 ![](https://user-images.githubusercontent.com/12621342/41663525-3a014f0e-74d6-11e8-8d7f-92ecb412a628.png)
 
-## Algolia
+### Algolia
 
 1. You should install [hexo-algolia](https://github.com/oncletom/hexo-algolia) or [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch). Follow their doc to setup.
 
@@ -201,7 +217,7 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 ```
 
-### Screenshots
+#### Screenshots
 
 > Click the search icon
 
@@ -211,9 +227,11 @@ algolia_search:
 
 ![](https://user-images.githubusercontent.com/12621342/34635852-8003827a-f2d0-11e7-9975-c1d0bb959122.png)
 
-## Local search
+### Local search
 
-!> Since v1.3
+::: tip
+Since v1.3
+:::
 
 1. You should install [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). Follow its doc to setup. **Only supporting the `xml` file**.
 
@@ -227,15 +245,15 @@ local_search:
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 ```
 
-### Screenshots
+#### Screenshots
 
 ![](https://user-images.githubusercontent.com/12621342/34635853-8404ead0-f2d0-11e7-8feb-936dec267523.png)
 
 ------
 
-# Analytics
+## Analytics
 
-## Baidu analytics
+### Baidu analytics
 
 1. Login the baidu tongji [web site](https://tongji.baidu.com/web/welcome/login)
 
@@ -249,7 +267,7 @@ local_search:
 baidu_analytics: your code
 ```
 
-## Google analytics
+### Google analytics
 
 1. Login the google analytics [web site](https://www.google.com/analytics/)
 
@@ -263,11 +281,59 @@ baidu_analytics: your code
 google_analytics: your code # usually start with `UA-`
 ```
 
+### Tencent analytics
+
+::: tip
+Since v1.6
+:::
+
+1. Login the tencent analytics [web site](https://ta.qq.com)
+
+2. Find your tencent analytics code
+
+![20190219153958.png](https://i.loli.net/2019/02/19/5c6bb2ce69de5.png)
+
+3\. Set the `melody.yml`
+
+```yaml
+tencent_analytics: your code
+```
+
 ------
 
-# Access Logs (UV/PV)
+## Adsense
 
-## busuanzi
+### Google adsense
+
+::: tip
+Since v1.6
+:::
+
+1. Login the google adsense [web site](https://www.google.com/adsense)
+
+2. Find your google adsense client-id, usually start with `ca-pub-`
+
+![20190219155033.png](https://i.loli.net/2019/02/19/5c6bb548cb96f.png)
+
+3\. Set the `melody.yml`
+
+```yaml
+google_adsense:
+  enable: true
+  js: //pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  client: ca-pub-...........
+  enable_page_level_ads: true
+```
+
+#### Screenshot
+
+![](https://user-images.githubusercontent.com/24741764/44613950-7776f400-a84e-11e8-9fbc-97b3bcaa71e3.png)
+
+------
+
+## Access Logs (UV/PV)
+
+### busuanzi
 
 You can visit the busuanzi [web site](http://busuanzi.ibruce.info/) for more details.
 
@@ -292,13 +358,17 @@ busuanzi:
   page_pv_footer: 
 ```
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635857-8f6f4032-f2d0-11e7-9cdf-4957d9cc0aa1.png)
 
 ------
 
-# MathJax
+## MathJax
+
+::: tip
+It is recommended to use Katex for better results, as described below!
+:::
 
 Set the `melody.yml`
 
@@ -316,15 +386,17 @@ Get in your **hexo site folder** and do the following things(**Not the theme-mel
 
 ![](https://user-images.githubusercontent.com/12621342/41012862-49cd9ed0-6976-11e8-8ef2-28c6b4208aa8.png)
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635861-934ef38c-f2d0-11e7-80ae-b37f6b20048a.png)
 
 ------
 
-# KaTeX
+## KaTeX
 
-!> Since v1.6
+::: tip
+Since v1.6
+:::
 
 Disable MathJax, and then modify your `melody.yml` to load `katex.min.css`:
 
@@ -338,9 +410,14 @@ katex:
 You don't need `katex.min.js` to render math equations. Instead, you have to uninstall your old hexo render, and then install `hexo-renderer-markdown-it-plus`:
 
 ```bash
-# Replace `hexo-renderer-kramed` with `your installed renderer`
+# Uninstall `hexo-renderer-kramed` or `hexo-renderer-marked` or whatever your hexo markdown renderer
 # You can check your installed renderer in your package.json
+npm un hexo-renderer-marked --save
+
+# or
+
 npm un hexo-renderer-kramed --save
+
 # install `hexo-renderer-markdown-it-plus`
 npm i @upupming/hexo-renderer-markdown-it-plus --save
 ```
@@ -349,15 +426,15 @@ Note [`hexo-renderer-markdown-it-plus`](https://github.com/CHENXCHEN/hexo-render
 
 Because KaTeX is faster and lightweight, there are fewer features than MathJax (right-click menu). For those are used to MathJax, we also added [*Copy As TeX Code*](https://github.com/upupming/katex-copytex) support for KaTeX, which is enabled by default.
 
-### Screenshot
+#### Screenshot
 
 <img src=https://user-images.githubusercontent.com/24741764/52897430-47157e80-320f-11e9-821c-ba5517ae096f.gif height=600px>
 
 ------
 
-# Effects
+## Effects
 
-## fireworks
+### fireworks
 
 Like the [anime.js](http://animejs.com/) clicking effects
 
@@ -369,7 +446,7 @@ fireworks: true
 
 Try to click the page body!
 
-### Screenshot
+#### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)
 

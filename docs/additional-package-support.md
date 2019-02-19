@@ -1,12 +1,18 @@
+---
+sidebarDepth: 1
+---
+
 # Additional-package-support
 
 > More additional-packages are coming soon.
 
 ------
 
-# PWA 
+## PWA 
 
-!> Since v1.2
+::: tip
+Since v1.2
+:::
 
 To have the PWA feature for `theme-melody`, you need to do the following things:
 
@@ -108,7 +114,7 @@ You can also quickly create `manifest.json` via [Web App Manifest](https://app-m
 For more on PWA (Progressive Enhanced Web Applications), see [Google Tools for Web Developers](https://developers.google.com/web/tools/lighthouse/audits/address-bar)
 
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635943-b50a2810-f2d1-11e7-995b-526e10da55dc.png)
 ![](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
@@ -116,9 +122,11 @@ For more on PWA (Progressive Enhanced Web Applications), see [Google Tools for W
 
 ------
 
-# Word Counting
+## Word counting
 
-!> Since v1.3
+::: tip
+Since v1.3
+:::
 
 To have the word counting feature for `theme-melody`, you need to do the following things:
 
@@ -131,6 +139,48 @@ wordcount:
   enable: true
 ```
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635947-be617e0e-f2d1-11e7-918e-594e1a22ab90.png)
+
+## Sticky posts
+
+::: tip
+Since v1.6
+:::
+
+To have the ability to stikcy posts, you need to do the following things:
+
+1. Go to the hexo site folder
+2. `npm uninstall hexo-generator-index --save` and then `npm install hexo-generator-index-pin-top --save`
+3. You can add the `top: True` field to post's front-matter to pin it.
+4. You can checkout [hexo-generator-index-pin-top](https://github.com/netcan/hexo-generator-index-pin-top) for more details.
+
+For example:
+
+if one of your post file is like the following:
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+---
+// ....
+```
+
+now add the `top: True`:
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+top: True
+---
+// ....
+```
+
+### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/44832717-37ed4500-ac5e-11e8-9d3d-2580ab36fcac.png)

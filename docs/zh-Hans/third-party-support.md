@@ -1,14 +1,20 @@
+---
+sidebarDepth: 2
+---
+
 # 第三方支持
 
 > 更多的第三方支持不断加入中。
 
 ------
 
-# 评论系统
+## 评论系统
 
-!> 你只能为你的博客选择一个评论系统。否则theme-melody将会在你开启的两个或者更多的评论系统里选择其中一个。
+::: warning
+你只能为你的博客选择一个评论系统。否则theme-melody将会在你开启的两个或者更多的评论系统里选择其中一个。
+:::
 
-## Disqus
+### Disqus
 
 注册[disqus](https://disqus.com/)，配置你自己的disqus，然后在`theme-melody`里开启它。
 
@@ -21,13 +27,15 @@ disqus:
   count: true # or false. 开启将展示出你的文章的评论数
 ```
 
-### 截图
+#### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/34635880-f8a72e84-f2d0-11e7-9343-1f69da841741.png)
 
-## Laibili（来必力）
+### Laibili（来必力）
 
-!> 版本1.4
+::: tip
+版本1.4
+:::
 
 注册[来必力](http://www.laibili.com.cn/)，配置你自己的来必力设置，然后在`theme-melody`里开启它。
 
@@ -43,13 +51,15 @@ laibili的uid你能在这里找到:
 
 ![](https://user-images.githubusercontent.com/12621342/34594229-c4e35800-f20a-11e7-947b-6e0a29537b1e.jpg)
 
-### 截图
+#### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/34594228-c46d0088-f20a-11e7-904d-32e3faa3159e.jpg)
 
-## Gitment
+### Gitment
 
-!> Since v1.4
+::: tip
+版本 v1.4
+:::
 
 遵循[gitment](https://github.com/imsun/gitment)的指示去获取你的github Oauth 应用的client id 和 secret值。
 
@@ -75,13 +85,15 @@ gitment:
   client_secret: yyyy 
 ```
 
-### 截图
+#### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/34594227-c4240c20-f20a-11e7-8463-64386439207f.jpg)
 
-## Gitalk
+### Gitalk
 
-!> Since v1.4.3
+::: tip
+版本 v1.4.3
+:::
 
 遵循[gitalk](https://github.com/gitalk/gitalk)的指示去获取你的github Oauth 应用的client id 和 secret值。以及查看它的相关配置说明。
 
@@ -97,13 +109,15 @@ gitalk:
   admin: 该仓库的拥有者或协作者
 ```
 
-### 截图 
+#### 截图 
 
 ![](https://user-images.githubusercontent.com/12621342/37018676-34892058-2150-11e8-92a0-62d8ed83896c.png)
 
-## Valine
+### Valine
 
-!> Since v1.4.3
+::: tip
+版本 v1.4.3
+:::
 
 遵循[Valine](https://github.com/xCss/Valine)的指示去配置你的LeanCloud应用。以及查看相应的配置说明。
 
@@ -123,17 +137,19 @@ valine:
   guest_info: nick,mail,link #valine comment header in
 ```
 
-### 截图
+#### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/37018884-f9e8fc56-2150-11e8-906a-ec0a3f1d1e91.png)
 
 ------
 
-# 分享系统
+## 分享系统
 
-!> 你只能为你的博客选择一个分享系统。否则theme-melody将会在你开启的两个或者更多的分享系统里选择其中一个。
+::: warning
+你只能为你的博客选择一个分享系统。否则theme-melody将会在你开启的两个或者更多的分享系统里选择其中一个。
+:::
 
-## AddThis
+### AddThis
 
 > 找到你的pub-id
 
@@ -147,11 +163,11 @@ addThis:
   pubid: 你的pub-id
 ```
 
-### 截图
+#### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/34635919-56cf9bea-f2d1-11e7-9d30-562e55363706.png)
 
-## Sharejs
+### Sharejs
 
 如果你不知道[sharejs](https://github.com/overtrue/share.js/)，看看它的说明。
 
@@ -171,15 +187,15 @@ sharejs:
   disabled_sites: google,facebook
 ```
 
-### 截图
+#### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/34594230-c537c5e8-f20a-11e7-9d52-267f3456aa22.png)
 
 ------
 
-# 搜索系统
+## 搜索系统
 
-## Algolia
+### Algolia
 
 1. 你需要安装 [hexo-algolia](https://github.com/oncletom/hexo-algolia) 或 [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch). 根据它们的说明文档去做相应的配置。
 
@@ -196,7 +212,7 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 ```
 
-### 截图
+#### 截图
 
 > 点击搜索按钮
 
@@ -206,9 +222,11 @@ algolia_search:
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjcjmc7d92j21z00ws44q.jpg)
 
-## 本地搜索
+### 本地搜索
 
-!> 版本 1.3
+::: tip
+版本 1.3
+:::
 
 1. 你需要安装 [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). 根据它的文档去做相应配置。**注意格式只支持xml**。
 
@@ -222,15 +240,15 @@ local_search:
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 ```
 
-### 截图
+#### 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fksfyhkvruj21z20ug44m.jpg)
 
 ------
 
-# 分析统计
+## 分析统计
 
-## 百度统计
+### 百度统计
 
 1. 登录百度统计的[官方网站](https://tongji.baidu.com/web/welcome/login)
 
@@ -244,7 +262,7 @@ local_search:
 baidu_analytics: 你的代码
 ```
 
-## 谷歌分析
+### 谷歌分析
 
 1. 登录谷歌分析的[官方网站](https://www.google.com/analytics/)
 
@@ -258,11 +276,59 @@ baidu_analytics: 你的代码
 google_analytics: 你的代码 # 通常以`UA-`打头
 ```
 
+### 腾讯分析
+
+::: tip
+版本 v1.6
+:::
+
+1. 登录腾讯分析的[网站](https://ta.qq.com)
+
+2. 找到你腾讯分析的代码：
+
+![20190219153958.png](https://i.loli.net/2019/02/19/5c6bb2ce69de5.png)
+
+3\. 配置`melody.yml`:
+
+```yaml
+tencent_analytics: 你的代码
+```
+
 ------
 
-# 访问日志(UV和PV)
+## 广告
 
-## busuanzi
+### 谷歌广告
+
+::: tip
+版本 v1.6
+:::
+
+1. 登录谷歌广告的[网站](https://www.google.com/adsense)
+
+2. 添加广告并找到你的client-id, 通常是以`ca-pub-`开头
+
+![20190219155033.png](https://i.loli.net/2019/02/19/5c6bb548cb96f.png)
+
+3\. 配置 `melody.yml`
+
+```yaml
+google_adsense:
+  enable: true
+  js: //pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  client: ca-pub-...........
+  enable_page_level_ads: true
+```
+
+#### 截图
+
+![](https://user-images.githubusercontent.com/24741764/44613950-7776f400-a84e-11e8-9fbc-97b3bcaa71e3.png)
+
+------
+
+## 访问日志(UV和PV)
+
+### busuanzi
 
 访问busuanzi的[官方网站](http://busuanzi.ibruce.info/)查看更多的介绍。
 
@@ -286,15 +352,19 @@ busuanzi:
   page_pv_footer: 
 ```
 
-### 截图
+#### 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjcl0gur6tj21z20a8q4t.jpg)
 
 ------
 
-# MathJax
+## MathJax
 
-配置`melody.yml`
+::: tip
+建议使用KaTex获得更好的效果，下文有介绍！
+:::
+
+配置`melody.yml`:
 
 ```yaml
 mathjax:
@@ -311,15 +381,56 @@ mathjax:
 ![](https://user-images.githubusercontent.com/12621342/41012862-49cd9ed0-6976-11e8-8ef2-28c6b4208aa8.png)
 
 
-### 截图
+#### 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
 
 ------
 
-# 特效
+## KaTeX
 
-## 烟花
+::: tip
+版本 v1.6
+:::
+
+首先禁用`MathJax`（如果你配置过MathJax的话），然后修改你的`melody.yml`以便加载`katex.min.css`:
+
+```yaml
+katex:
+  enable: true
+  cdn:
+    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+```
+
+你不需要添加`katex.min.js`来渲染数学方程。相应的你需要卸载你之前的hexo的markdown渲染器，然后安装新的`hexo-renderer-markdown-it-plus`:
+
+```bash
+# 替换 `hexo-renderer-kramed` 或者 `hexo-renderer-marked` 等hexo的markdown渲染器
+# 你可以在你的package.json里找到hexo的markdwon渲染器，并将其卸载
+npm un hexo-renderer-marked --save
+
+# or
+
+npm un hexo-renderer-kramed --save
+
+# 然后安装 `hexo-renderer-markdown-it-plus`
+npm i @upupming/hexo-renderer-markdown-it-plus --save
+```
+
+注意到 [`hexo-renderer-markdown-it-plus`](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus) 已经无人持续维护, 所以我们使用 [`@upupming/hexo-renderer-markdown-it-plus`](https://github.com/upupming/hexo-renderer-markdown-it-plus)。 这份fork的代码使用了 [`@neilsustc/markdown-it-katex`](https://github.com/yzhang-gh/markdown-it-katex) 同时它也是VSCode的插件[Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)所使用的, 所以我们可以获得最新的KaTex功能例如 `\tag{}`。
+
+因为KaTex更快更轻量，并且有一些新功能是MathJax没有的（比如右键菜单）。为那些使用MathJax的用户，我们也为KaTex默认添加添加了 [*Copy As TeX Code*](https://github.com/upupming/katex-copytex) 的功能。
+
+#### 截图
+
+<img src=https://user-images.githubusercontent.com/24741764/52897430-47157e80-320f-11e9-821c-ba5517ae096f.gif height=600px>
+
+------
+
+
+## 特效
+
+### 烟花
 
 模仿[anime.js官网](http://animejs.com/)的点击效果
 
@@ -331,7 +442,7 @@ fireworks: true
 
 尝试去点击一下网站主体部分吧!
 
-### 截图
+#### 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
 

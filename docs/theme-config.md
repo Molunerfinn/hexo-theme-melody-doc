@@ -1,14 +1,18 @@
+---
+sidebarDepth: 1
+---
+
 # Theme config
 -----
 
-# Configuration file introduction
+## Configuration file introduction
 
 * root `_config.yml` is the hexo work folder config file
 * `melody.yml` is the `theme-melody` config file which you should copy the theme `_config.yml` to the hexo work folder's `source/_data/melody.yml`
 
 ------
 
-# Language
+## Language
 
 Set the root `_config.yml`, not the `melody.yml`!
 
@@ -18,7 +22,7 @@ language: en
 
 The default language is en.
 
-## Language support list
+### Language support list
 
 |   Language  |    Author   |
 |-------------|-------------|
@@ -28,9 +32,11 @@ The default language is en.
 
 ------
 
-# Theme color
+## Theme color
 
-!> Since v1.5.6
+::: tip
+Since v1.5.6
+:::
 
 Now you can change most of the theme color to whatever you like.
 
@@ -50,13 +56,13 @@ theme_color:
   meta_color: "#000"
 ```
 
-## Screenshot
+### Screenshot
 
 ![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/new_theme_for_melody.png)
 
 ------
 
-# Highlight theme
+## Highlight theme
 
 `theme-melody` supports the [Material Theme](https://github.com/equinusocio/material-theme) code highlight and full five color schemes:
 
@@ -72,7 +78,7 @@ set the `melody.yml`
 highlight_theme: default
 ```
 
-## Screenshots
+### Screenshots
 
 > default
 
@@ -96,13 +102,13 @@ highlight_theme: default
 
 ![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/ocean-highlight.png)
 
-## Copy support
+### Copy support
 
 As you can see, in the top-right corner of code area, it's a copy icon for you to copy the code by clicking.
 
 ------
 
-# Code Word Wrap
+## Code Word Wrap
 
 > Since v1.5.6
 
@@ -139,7 +145,7 @@ And then run `hexo clean` & `hexo g` to generate new code!
 
 Take a look:
 
-## Screenshots
+### Screenshots
 
 > Before set the `code_word_wrap`:
 
@@ -152,27 +158,65 @@ Take a look:
 
 ------
 
-# Social Icons
+## Social Icons
 
-Set the social icons and url on the top of site. The format is `icon-name: url`. For icon-name, you can check the [font-awesome](http://fontawesome.io/icons/).
+::: warning Be careful!
+Since v1.6, social icon's format is `icon-name prefix: url` not `icon-name: url`, **be careful**!
+:::
 
-set the `melody.yml`
+Set the social icons and url on the top of site. The format is `icon-name prefix: url`.
+
+Hexo-theme-melody supports [font-awesome v4](https://fontawesome.com/v4.7.0/) & [font-awesome v5](https://fontawesome.com/icons?from=io). By default is the `v4` version.
+
+### v4 version
+
+if you just want to show `v4` icons, you just need to check the [font-awesome v4](https://fontawesome.com/v4.7.0/) for icon name and the prefix is always `fa`.
+
+For example, set the `melody.yml`
 
 ```yaml
 social:
-  github: https://github.com/Molunerfinn
-  weibo: http://weibo.com/mybluedreams
-  rss: https://Molunerfinn/atom.xml
+  github fa: https://github.com/Molunerfinn
+  weibo fa: http://weibo.com/mybluedreams
+  rss fa: https://Molunerfinn/atom.xml
   ...
 ```
 
-## Screenshot
+That's all.
+
+### v5 version
+
+if you want to show `v5` icons, you need to check [font-awesome v5 free icons](https://fontawesome.com/icons?d=gallery&m=free), and the prefix will be `fab`,`fas` or so, you need to write down the right prefix or it won't be displayed.
+
+![20190219160257.png](https://i.loli.net/2019/02/19/5c6bb8312779d.png)
+
+And you need to add `font-awesome v5`'s link to `melody.yml`.
+
+For example, set the `melody.yml`
+
+```yaml
+social:
+  github fab: https://github.com/Molunerfinn
+  weibo fab: http://weibo.com/mybluedreams
+  rss fas: https://Molunerfinn/atom.xml
+  ...
+
+// ...
+
+cdn:
+  css:
+    fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
+    fontawesomev5: https://use.fontawesome.com/releases/v5.7.2/css/all.css
+  // ...
+```
+
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635719-8aaf7276-f2ce-11e7-9361-35aac9b5dab1.png)
 
 ------
 
-# Menu
+## Menu
 
 In the top-right area, there are nav menu items. Hexo has default path for `/` and `/archives`. If you want to add more menu items such as tags and categories, follow this:
 
@@ -216,13 +260,13 @@ menu:
 ```
 
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34598665-08279518-f229-11e7-892d-9d869ca915b5.png)
 
 ------
 
-# Auto excerpt
+## Auto excerpt
 
 !> Since v1.5
 
@@ -240,7 +284,7 @@ auto_excerpt:
 
 ------
 
-# Top-img
+## Top-img
 
 `Top-img` is the `theme-melody` most magic option. It can have `true` or `false` or `specific img url` values.
 
@@ -282,7 +326,7 @@ There are Screenshots of the three different values:
 
 ![](https://user-images.githubusercontent.com/12621342/34635736-ad06cbee-f2ce-11e7-951d-c40341b396c0.png)
 
-## Set the specific post-item's self top-img
+### Set the specific post-item's self top-img
 
 Just add the `top_img` & url in your post header in the specific `md` file
 
@@ -300,7 +344,7 @@ date: 2017-09-07
 
 ------
 
-# Post meta
+## Post meta
 
 `Post meta` is a option to show the information of a post.
 
@@ -322,7 +366,7 @@ The following Screenshots shows the tags:
 
 ------
 
-# Post copyright
+## Post copyright
 
 !> Since v1.1
 
@@ -337,13 +381,13 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 ```
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635740-b80da882-f2ce-11e7-9bc1-8664f39d6e17.png)
 
 ------
 
-# Post QR code
+## Post QR code
 
 !> Since v1.1
 
@@ -361,13 +405,13 @@ QR_code:
       text: 微信打赏
 ```
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635742-bcb9f980-f2ce-11e7-9a3a-892695a6d666.png)
 
 ------
 
-# Post adv area
+## Post adv area
 
 !> Since v1.4
 
@@ -389,13 +433,13 @@ adv:
   info: <a href="https://www.vultr.com/?ref=7231808"><img src="https://www.vultr.com/media/banner_1.png" width="728" height="90"></a>
 ```
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34594225-c3d1e0f8-f20a-11e7-9f0b-ed99e4f26305.png)
 
 ------
 
-# Avatar
+## Avatar
 
 Set the `melody.yml`.
 
@@ -403,13 +447,13 @@ Set the `melody.yml`.
 avatar: https://xxxx.jpg
 ```
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635748-c5962902-f2ce-11e7-9d52-1d343e868dbb.png)
 
 ------
 
-# Follow Me
+## Follow Me
 
 !> Since v1.5.4
 
@@ -422,13 +466,13 @@ follow:
   text: 'Follow Me'
 ```
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/39968647-22a87a3a-5703-11e8-9e61-2b5b540f98a7.png)
 
 ------
 
-# Friend links
+## Friend links
 
 In the sidebar, you can set some links to your friends or some web pages. The format is `name: url`
 
@@ -442,13 +486,13 @@ links:
   Elody: https://piegg.cn
 ```
 
-## Screenshot:
+### Screenshot:
 
 ![](https://user-images.githubusercontent.com/12621342/34635749-ca9a1b98-f2ce-11e7-9260-ac9052332ace.png)
 
 ------
 
-# Toc
+## Toc
 
 You can have a toc catalog for your post. It's in your sidebar and will auto expand headers depends on your scroll top.
 
@@ -462,7 +506,7 @@ toc:
   number: true # or false. Since v1.5.6
 ```
 
-## Set the specific post-item's self toc-number
+### Set the specific post-item's self toc-number
 
 Just add the `toc_number` in your post header in the specific `md` file
 
@@ -479,7 +523,7 @@ date: 2017-09-07
 !> After that, your specific post will have it's own top-number control instead of the theme toc-number value
 
 
-## Screenshots:
+### Screenshots:
 
 > `enable: true`
 
@@ -495,7 +539,7 @@ date: 2017-09-07
 
 ------
 
-# Since
+## Since
 
 `Since` is an option to show people the age of your site. It's position is in the bottom of the page.
 
@@ -505,13 +549,13 @@ set the `melody.yml`
 since: 2013
 ```
 
-## Screenshot:
+### Screenshot:
 
 ![](https://user-images.githubusercontent.com/12621342/34635752-d82a78ac-f2ce-11e7-9081-e89425eb6a8c.png)
 
 ------
 
-# footer_custom_text
+## footer_custom_text
 
 !> Since v1.5.5
 
@@ -523,6 +567,6 @@ set the `melody.yml`
 footer_custom_text: Hi, welcome to my <a href="https://molunerfinn.com">blog</a>!
 ```
 
-## Screenshot:
+### Screenshot:
 
 ![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/footer_custom_text.png)

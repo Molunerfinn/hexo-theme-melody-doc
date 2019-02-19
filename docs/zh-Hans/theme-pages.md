@@ -1,10 +1,14 @@
-# Theme-pages
+---
+sidebarDepth: 1
+---
+
+# 主题页面
 
 melody主题支持多种页面类型。
 
 ------
 
-# 标签页
+## 标签页
 
 1. 前往你的Hexo博客的根目录
 2. 输入`hexo new page tags`
@@ -21,7 +25,7 @@ type: "tags"
 
 ---
 
-# 分类页 
+## 分类页 
 
 1. 前往你的Hexo博客的根目录
 2. 输入`hexo new page categories`
@@ -38,17 +42,19 @@ type: "categories"
 
 ---
 
-# Slides页面
+## 幻灯片Slides页面
 
-!> 版本 v1.5
+::: tip
+版本 v1.5
+:::
 
 Slides页面允许你用markdown书写，并最后通过[reveal.js](https://github.com/hakimel/reveal.js/)输出成漂亮的前端展示页。
 
-> 例子
+> 例子 [hexo-theme-melody supports slides](https://molunerfinn.com/slide-support/) 
 
-[hexo-theme-melody supports slides](https://molunerfinn.com/slide-support/ ':include :type=iframe width=100% height=400px')
+<iframe-demo url="https://molunerfinn.com/slide-support/" />
 
-## 配置 `melody.yml`
+### 配置 `melody.yml`
 
 ```yaml
 slide:
@@ -67,7 +73,7 @@ slide:
 
 > 上述是 theme-melody 所提供的 reveal.js 的配置项, 可以参考官方文档的说明 https://github.com/hakimel/reveal.js#configuration
 
-## 创建一个slide文章页面
+### 创建一个slide文章页面
 
 像往常一样在文章文件夹里创建一个`md`文件. 在该文件的顶部配置区加上一个`layout: slides`配置项。
 
@@ -98,17 +104,17 @@ slide:
   separator_vertical: ==
 ---
 
-## hexo-theme-melody <small>v1.5</small>
+### hexo-theme-melody <small>v1.5</small>
 <!-- .slide: data-background="#49B1F5" -->
 
 Supports iframe & slides. You can use a layout called `slides` to enabled the slides layout.
 
 Also you can add a `iframe` front-matter with the `slides` layout in your `md` file to enable the iframe page.
 
-## Steps
+### Steps
 <!-- .slide: data-transition="concave" data-background="#C7916B" -->
 
-### 1. Add a slides page
+#### 1. Add a slides page
 
 // ......
 
@@ -118,14 +124,14 @@ Also you can add a `iframe` front-matter with the `slides` layout in your `md` f
 
 ===
 
-### 2. Add the layout type
+#### 2. Add the layout type
 <!-- .slide: data-transition="fade" data-background="#00C4B6" -->
 
 // ......
 
 ```
 
-## 创建一个Iframe页面
+### 创建一个Iframe页面
 
 如果你想创建一个只有Iframe的页面，可以在文章的顶部配置区加入`iframe`的选项。
 
@@ -137,9 +143,11 @@ iframe: https://the-url-whatever-you-like
 ---
 ```
 
-!> 注意，`layout: slides`必须指定，否则iframe的页面将不生效。
+::: warning 注意
+`layout: slides`必须指定，否则iframe的页面将不生效。
+:::
 
-## 创建Slides页面
+### 创建Slides页面
 
 1. 前往你的Hexo博客的根目录
 2. 输入`hexo new page slides`
@@ -154,25 +162,27 @@ type: "slides"
 ---
 ```
 
-## 查看你的slides页面 
+### 查看你的slides页面 
 
 `theme-melody`将会在`你的博客网址/slides/`的地址里展示你的所有slides文章。
 
 查看例子: https://molunerfinn.com/slides/
 
-### 截图
+#### 截图
 
 ![image](https://user-images.githubusercontent.com/12621342/37324543-e38ee596-26c4-11e8-984b-995a3d327be7.png)
 
 ---
 
-# 相册
+## 相册
 
-!> 版本 v1.5
+::: tip
+版本 v1.5
+:::
 
 为你的博客创建一个相册页！
 
-## 创建相册页
+### 创建相册页
 
 1. 前往你的Hexo博客的根目录
 2. 输入`hexo new page gallery`
@@ -211,7 +221,7 @@ type: "gallery"
 
 > gallery-item 也拥有fancybox的效果!
 
-## 截图
+### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/37325837-7961f112-26ca-11e8-871e-5f7b6ec1dbdc.png)
 

@@ -1,3 +1,6 @@
+# Quick start
+------
+
 ## Installation
 
 Find your hexo work folder
@@ -20,7 +23,9 @@ if you want to try the latest feature of `theme-melody`, you can use the `dev` b
 git checkout dev
 ```
 
-!> All the new features in the dev branch is not stable & no docs for you to setup! You should read the dev branch commits history by yourself.
+::: warning
+All the new features in the dev branch is not stable & no docs for you to setup! You should read the dev branch commits history by yourself.
+:::
 
 ## Setup
 
@@ -30,7 +35,9 @@ Set theme in the hexo work folder's root config file `_config.yml`:
 theme: melody
 ```
 
-!> If you don't have pug & stylus renderder, please `npm install hexo-renderer-jade hexo-renderer-stylus --save` or `yarn add hexo-renderer-jade hexo-renderer-stylus`
+::: warning
+If you don't have pug & stylus renderder, please `npm install hexo-renderer-jade hexo-renderer-stylus --save` or `yarn add hexo-renderer-jade hexo-renderer-stylus`
+:::
 
 ## Configuration
 
@@ -38,7 +45,9 @@ For smoothly update, `theme-melody` use the [data files](https://hexo.io/docs/da
 
 It's recommonded that copy the theme default config file `_config.yml` to the hexo work folder `source/_data/melody.yml`. If the folder don't exist, create one.
 
-!> Notice that, if you create the `melody.yml`, it will replace the default settings of the theme `_config.yml` (**Not merge, but replace**)
+::: warning
+Notice that, if you create the `melody.yml`, it will replace the default settings of the theme `_config.yml` (**Not merge, but replace**)
+:::
 
 After that, you can update `theme-melody` smoothly by just `git pull`.
 

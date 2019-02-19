@@ -1,12 +1,18 @@
+---
+sidebarDepth: 1
+---
+
 # 额外依赖库支持
 
 > 更多的额外依赖库支持不断加入中。
 
 ------
 
-# PWA
+## PWA
 
-!> 版本 1.2
+::: tip
+版本 1.2
+:::
 
 要为`theme-melody`配上PWA特性, 你需要如下几个步骤:
 
@@ -107,7 +113,7 @@ pwa:
 
 关于PWA（渐进式增强Web应用）的更多内容请参阅[Google Tools for Web Developers](https://developers.google.com/web/tools/lighthouse/audits/address-bar)
 
-## 截图
+### 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fk1eksl51kj21z20ogjyo.jpg)
 ![](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
@@ -115,9 +121,11 @@ pwa:
 
 ------
 
-# 字数统计
+## 字数统计
 
-!> 版本 1.3
+::: tip
+版本 1.3
+:::
 
 要为`theme-melody`配上字数统计特性, 你需要如下几个步骤:
 
@@ -130,6 +138,48 @@ wordcount:
   enable: true
 ```
 
-## 截图 
+### 截图 
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fksgxun0joj21z20todl2.jpg)
+
+## 文章置顶
+
+::: tip
+版本 v1.6
+:::
+
+要为你一些文章置顶，你需要如下步骤:
+
+1. 打开hexo工作目录
+2. `npm uninstall hexo-generator-index --save` 然后 `npm install hexo-generator-index-pin-top --save`
+3. 你要在文章的`front-matter`区域里添加`top: True`属性来把这篇文章置顶。
+4. 你可以参考[hexo-generator-index-pin-top](https://github.com/netcan/hexo-generator-index-pin-top)这个仓库来了解更多细节。
+
+举个例子:
+
+你的某篇文章开头如下：
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+---
+// ....
+```
+
+现在把`top: True`加进去：
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+top: True
+---
+// ....
+```
+
+### 截图
+
+![](https://user-images.githubusercontent.com/12621342/44832717-37ed4500-ac5e-11e8-9d3d-2580ab36fcac.png)

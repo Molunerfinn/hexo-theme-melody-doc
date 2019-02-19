@@ -1,10 +1,14 @@
+---
+sidebarDepth: 1
+---
+
 # Theme-pages
 
 Theme-melody supports several kinds of pages.
 
 ------
 
-# Tags
+## Tags
 
 1. get to your hexo blog root folder.
 2. type `hexo new page tags`
@@ -21,7 +25,7 @@ type: "tags"
 
 ---
 
-# Categories
+## Categories
 
 1. get to your hexo blog root folder.
 2. type `hexo new page categories`
@@ -38,17 +42,19 @@ type: "categories"
 
 ---
 
-# Slides
+## Slides
 
-!> Since v1.5
+::: tip
+Since v1.5
+:::
 
 Slides page allows you to write in markdown & output with [reveal.js](https://github.com/hakimel/reveal.js/) to make a beautiful slide page.
 
-> Demo
+> Demo [hexo-theme-melody supports slides](https://molunerfinn.com/slide-support/) 
 
-[hexo-theme-melody supports slides](https://molunerfinn.com/slide-support/ ':include :type=iframe width=100% height=400px')
+<iframe-demo url="https://molunerfinn.com/slide-support/" />
 
-## Set the `melody.yml`
+### Set the `melody.yml`
 
 ```yaml
 slide:
@@ -68,7 +74,7 @@ slide:
 
 > For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
 
-## Create post with slides layout
+### Create post with slides layout
 
 Just create a `md` file as usual. Add a attribute called `layout: slides` in your hexo post file's `front matter`.
 
@@ -99,17 +105,17 @@ slide:
   separator_vertical: ==
 ---
 
-## hexo-theme-melody <small>v1.5</small>
+### hexo-theme-melody <small>v1.5</small>
 <!-- .slide: data-background="#49B1F5" -->
 
 Supports iframe & slides. You can use a layout called `slides` to enabled the slides layout.
 
 Also you can add a `iframe` front-matter with the `slides` layout in your `md` file to enable the iframe page.
 
-## Steps
+### Steps
 <!-- .slide: data-transition="concave" data-background="#C7916B" -->
 
-### 1. Add a slides page
+#### 1. Add a slides page
 
 // ......
 
@@ -119,14 +125,14 @@ Also you can add a `iframe` front-matter with the `slides` layout in your `md` f
 
 ===
 
-### 2. Add the layout type
+#### 2. Add the layout type
 <!-- .slide: data-transition="fade" data-background="#00C4B6" -->
 
 // ......
 
 ```
 
-## Create post with iframe page
+### Create post with iframe page
 
 If you want to add a website whatever you like within an iframe, try this:
 
@@ -138,9 +144,11 @@ iframe: https://the-url-whatever-you-like
 ---
 ```
 
-!> The layout must be slides or iframe won't work.
+::: warning
+The layout must be slides or iframe won't work.
+:::
 
-## Create slides page
+### Create slides page
 
 1. get to your hexo blog root folder.
 2. type `hexo new page slides`
@@ -155,7 +163,7 @@ type: "slides"
 ---
 ```
 
-## See your slides type page list
+### See your slides type page list
 
 `theme-melody` will show your slides page list in one page:
 
@@ -169,13 +177,15 @@ See demo: https://molunerfinn.com/slides/
 
 ---
 
-# Gallery
+## Gallery
 
-!> Since v1.5
+::: tip
+Since v1.5
+:::
 
 To create a gallery page for your blog!
 
-## Create gallery page
+### Create gallery page
 
 1. get to your hexo blog root folder.
 2. type `hexo new page gallery`
@@ -214,7 +224,7 @@ type: "gallery"
 
 > gallery-item also has fancybox effection!
 
-## Screenshot
+### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/37325837-7961f112-26ca-11e8-871e-5f7b6ec1dbdc.png)
 
