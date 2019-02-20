@@ -42,7 +42,9 @@ Now you can change most of the theme color to whatever you like.
 
 Set the `melody.yml`, for example:
 
-!> color values must be quoted like `"#000"` not `#000` or may cause error!
+::: warning
+color values must be quoted like `"#000"` not `#000` or may cause error!
+:::
 
 ```yaml
 theme_color:
@@ -235,7 +237,9 @@ type: "tags"
 ---
 ```
 
-!> the type must be `tags`! So as the `categories`.
+::: warning
+the type must be `tags`! So as the `categories`.
+:::
 
 Then set the `melody.yml`
 
@@ -268,11 +272,15 @@ menu:
 
 ## Auto excerpt
 
-!> Since v1.5
+::: tip
+Since v1.5
+:::
 
 Now, if you do not set `auto_excerpt` options in `melody.yml`, your posts will be all shown in the index page. If you add `<!-- more -->` mark in your post, it will be replaced by a `Read More` button. If you don't want to add `<!-- more -->` in every posts, you can set `auto_excerpt` to auto cut your post in the index page.
 
-!> Notice: using this feature may cause error with the code area. So if you want to show code in the index page, then you'd better not use this feature!
+::: warning
+Notice: using this feature may cause error with the code area. So if you want to show code in the index page, then you'd better not use this feature!
+:::
 
 set the `melody.yml`:
 
@@ -340,7 +348,9 @@ date: 2017-09-07
 ---
 ```
 
-!> After that, your specific post will have it's own top-img instead of the theme top-img value
+::: tip
+After that, your specific post will have it's own top-img instead of the theme top-img value
+:::
 
 ------
 
@@ -368,7 +378,9 @@ The following Screenshots shows the tags:
 
 ## Post copyright
 
-!> Since v1.1
+::: tip
+Since v1.1
+:::
 
 Show the copyright & license for your blog post!
 
@@ -389,7 +401,9 @@ post_copyright:
 
 ## Post QR code
 
-!> Since v1.1
+::: tip
+Since v1.1
+:::
 
 Show your own QR code in the end of a post to readers. The QR code img & the text of it depends on you.
 
@@ -413,7 +427,9 @@ QR_code:
 
 ## Post adv area
 
-!> Since v1.4
+::: tip
+Since v1.4
+:::
 
 Get a adv area for your post! You can put an adv or a music player and so on. It's up to you.
 
@@ -455,7 +471,9 @@ avatar: https://xxxx.jpg
 
 ## Follow Me
 
-!> Since v1.5.4
+::: tip
+Since v1.5.4
+:::
 
 Set the `melody.yml`.
 
@@ -520,7 +538,9 @@ date: 2017-09-07
 ---
 ```
 
-!> After that, your specific post will have it's own top-number control instead of the theme toc-number value
+::: tip
+After that, your specific post will have it's own top-number control instead of the theme toc-number value
+:::
 
 
 ### Screenshots:
@@ -557,7 +577,9 @@ since: 2013
 
 ## footer_custom_text
 
-!> Since v1.5.5
+::: tip
+Since v1.5.5
+:::
 
 `footer_custom_text` is an option for you to show some texts in the footer area. It supports HTML.
 
