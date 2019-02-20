@@ -225,7 +225,7 @@ algolia_search:
 ### 本地搜索
 
 ::: tip
-版本 1.3
+版本 v1.3
 :::
 
 1. 你需要安装 [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). 根据它的文档去做相应配置。**注意格式只支持xml**。
@@ -445,6 +445,3 @@ fireworks: true
 #### 截图
 
 ![](https://ws1.sinaimg.cn/large/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
-
-
-

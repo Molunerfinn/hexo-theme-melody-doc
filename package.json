@@ -8,8 +8,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "remove-prism": "sed -i.bak -e \":a\" -e 'N' -e '$!ba' -e \"s/<style src=\\\"prismjs.*css\\\"><\\/style>/ /\" node_modules/vuepress/lib/default-theme/Layout.vue",
-    "dev:docsify": "docsify serve ./docs -p 3131",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },

@@ -5,7 +5,7 @@
 
 Find your hexo work folder
 
-```
+```bash
 git clone -b master https://github.com/Molunerfinn/hexo-theme-melody themes/melody
 ```
 
@@ -19,7 +19,7 @@ For example, get into the `themes/melody` folder and then
 
 if you want to try the latest feature of `theme-melody`, you can use the `dev` branch：
 
-```
+```bash
 git checkout dev
 ```
 
@@ -50,7 +50,3 @@ Notice that, if you create the `melody.yml`, it will replace the default setting
 :::
 
 After that, you can update `theme-melody` smoothly by just `git pull`.
-
-
-
-

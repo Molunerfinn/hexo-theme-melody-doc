@@ -51,12 +51,14 @@ $highlight-green = #91B859
 $highlight-aqua = #39ADB5
 $highlight-blue = #6182B8
 $highlight-purple = #7C4DFF
+$highlight-deletion = #fdd
+$highlight-addition = #dfd
 
 transition()
   transition all .2s ease-in-out
 
 // styles
-
+// -------------
 .home .hero .action-button
   background $theme-color
   border-bottom $theme-color
@@ -73,20 +75,52 @@ a
   background $theme-text-selection-color
   color: #f7f7f7
 
-// code highlight
+// nav-bar theme
+// -------------
+.navbar
+  box-shadow 0 5px 6px -5px rgba(133,133,133,.2)
+  border-bottom 0
+  background rgba(255,255,255,.8)
+  .links
+    background transparent
 
+// sidebar theme
+// -------------
+.sidebar
+  background $highlight-background
+  border-right 0
+  box-shadow -0.25rem 0 0.25rem rgba(232,237,250,.6) inset
+
+a.sidebar-link
+  &:hover
+    color $theme-text-selection-color
+  &.active
+    border-left-color $theme-text-selection-color
+    color $theme-text-selection-color
+
+.sidebar-sub-headers
+  a.sidebar-link
+    transition()
+    &.active
+      border-right 3px solid #009d92
+      border-right-color: #009d92
+      background: $theme-text-selection-color
+      color: #fff
+
+// code highlight
+// -------------
 :not(pre) > code[class*="language-"],
 pre[class*="language-"]
   background: $highlight-background
 
 .content pre code,
 .content pre[class*="language-"] code
-  color $code-foreground
+  color $highlight-foreground
   font-family consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number
 
 #app.content
   pre, pre[class*="language-"]
-    color $code-foreground
+    color $highlight-foreground
 
 
 .token.comment,
@@ -100,26 +134,36 @@ pre[class*="language-"]
   color: $highlight-foreground
 
 
-.token.tag,
-.token.attr-name,
 .token.namespace,
+.token.tag
+  color $highlight-red
+.token.attr-name
+  color $highlight-purple
+
 .token.deleted
   color: #fdd
+.token.inserted
+  color: #dfd
 
 
 .token.function-name
-  color: #6196cc
+  color: $highlight-blue
 
-.token.number,
-.token.function
+.token.string,
+.token.number
   color: $highlight-green
 
 .token.boolean,
 .token.property,
-.token.class-name,
 .token.constant,
-.token.symbol
-  color: $highlight-yellow
+.token.symbol,
+.token.regex,
+.token.important.boolean
+  color: $highlight-orange
+
+.token.function,
+.token.class-name
+  color $highlight-yellow
 
 .token.selector,
 .token.important,
@@ -129,18 +173,12 @@ pre[class*="language-"]
   color: $highlight-aqua
 
 
-.token.string,
 .token.char,
 .token.attr-value,
-.token.regex,
 .token.variable
-  color: #7ec699
+  color: $highlight-green
 
 .token.operator,
 .token.entity,
 .token.url
-  color: #67cdcc
-
-.token.inserted
-  color: #dfd
-
+  color: $highlight-aqua
