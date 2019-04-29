@@ -115,7 +115,7 @@ pwa:
 
 ### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fk1eksl51kj21z20ogjyo.jpg)
+![](https://i.loli.net/2019/04/29/5cc6fe159a263.jpg)
 ![](https://i.loli.net/2019/02/09/5c5e1556af49b.png)
 ![](https://i.loli.net/2019/02/09/5c5e15567c52d.jpg)
 
@@ -140,7 +140,7 @@ wordcount:
 
 ### 截图 
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fksgxun0joj21z20todl2.jpg)
+![](https://i.loli.net/2019/04/29/5cc6fe1698a7d.jpg)
 
 ## 文章置顶
 

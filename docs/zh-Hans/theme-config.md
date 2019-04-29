@@ -84,21 +84,21 @@ highlight_theme: default # default/darker/pale night/light
 
 > default
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xjkx0j212k0h8gop.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xjkx0j212k0h8gop.jpg)
 
 > darker
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xhpzmj212o0ha77e.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xhpzmj212o0ha77e.jpg)
 
 
 > pale night
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xnytuj212m0h6whm.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xnytuj212m0h6whm.jpg)
 
 
 > light
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbc7xkvwmj212g0h8ad5.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xkvwmj212g0h8ad5.jpg)
 
 > ocean
 
@@ -309,31 +309,31 @@ top_img: true  # false / 具体图片url
 
 > 主页
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
 
 > 文章页
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf1226nrj21z20u2gr6.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf1226nrj21z20u2gr6.jpg)
 
 - `top_img: false`
 
 > 主页
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbeyeimscj21z20y0ju7.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbeyeimscj21z20y0ju7.jpg)
 
 > 文章页
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbeyf0x5sj21z20xoal5.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbeyf0x5sj21z20xoal5.jpg)
 
 - `top_img: https://xxxxx.jpg`
 
 > 主页
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf9wlz0qj21z20xy7wk.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf9wlz0qj21z20xy7wk.jpg)
 
 > 文章页
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbf9nwhm0j21z20ue1l0.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf9nwhm0j21z20ue1l0.jpg)
 
 ### 为特定的文章页配置特定的顶部图 
 
@@ -372,7 +372,7 @@ post_meta:
 
 下图显示了文章的标签所在的位置：
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
 
 ------
 
@@ -395,7 +395,7 @@ post_copyright:
 
 ### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
 
 ------
 
@@ -421,7 +421,7 @@ QR_code:
 
 ### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
 
 ------
 
@@ -463,7 +463,7 @@ avatar: https://xxxx.jpg
 
 ### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
 
 ------
 
@@ -504,7 +504,7 @@ links:
 
 ### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
 
 ------
 
@@ -544,11 +544,11 @@ date: 2017-09-07
 
 > `enable: true`
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbgcwyvbrj21z21307fh.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbgcwyvbrj21z21307fh.jpg)
 
 > `enable: false`
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
 
 > `number: false`
 
@@ -568,7 +568,7 @@ since: 2013
 
 ### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
 
 ------
 

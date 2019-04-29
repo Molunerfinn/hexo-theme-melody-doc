@@ -153,7 +153,7 @@ valine:
 
 > 找到你的pub-id
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcj0cbbazj21bq0aqwg3.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjcj0cbbazj21bq0aqwg3.jpg)
 
 配置`melody.yml`
 
@@ -216,11 +216,11 @@ algolia_search:
 
 > 点击搜索按钮
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcjkvvavvj21z20uktdp.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjcjkvvavvj21z20uktdp.jpg)
 
 > 搜索结果
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcjmc7d92j21z00ws44q.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjcjmc7d92j21z00ws44q.jpg)
 
 ### 本地搜索
 
@@ -242,7 +242,7 @@ local_search:
 
 #### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fksfyhkvruj21z20ug44m.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fksfyhkvruj21z20ug44m.jpg)
 
 ------
 
@@ -254,7 +254,7 @@ local_search:
 
 2. 找到你百度统计的统计代码
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjck7o612hj21mq0dqtc5.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjck7o612hj21mq0dqtc5.jpg)
 
 3\. 配置`melody.yml`
 
@@ -268,7 +268,7 @@ baidu_analytics: 你的代码
 
 2. 找到你的谷歌分析的跟踪ID
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjckd6djgtj218e05edg2.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjckd6djgtj218e05edg2.jpg)
 
 3\. 配置`melody.yml`
 
@@ -354,7 +354,7 @@ busuanzi:
 
 #### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjcl0gur6tj21z20a8q4t.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjcl0gur6tj21z20a8q4t.jpg)
 
 ------
 
@@ -383,7 +383,7 @@ mathjax:
 
 #### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
 
 ------
 
@@ -444,4 +444,4 @@ fireworks: true
 
 #### 截图
 
-![](https://ws1.sinaimg.cn/large/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
+![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
