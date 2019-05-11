@@ -402,7 +402,7 @@ katex:
     css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
 ```
 
-你不需要添加`katex.min.js`来渲染数学方程。相应的你需要卸载你之前的hexo的markdown渲染器，然后安装新的`hexo-renderer-markdown-it-plus`:
+你不需要添加`katex.min.js`来渲染数学方程。相应的你需要卸载你之前的hexo的markdown渲染器以及`hexo-math`，然后安装新的`hexo-renderer-markdown-it-plus`:
 
 ```bash
 # 替换 `hexo-renderer-kramed` 或者 `hexo-renderer-marked` 等hexo的markdown渲染器
@@ -412,6 +412,9 @@ npm un hexo-renderer-marked --save
 # or
 
 npm un hexo-renderer-kramed --save
+
+# 卸载 `hexo-math`
+npm un hexo-math --save
 
 # 然后安装 `hexo-renderer-markdown-it-plus`
 npm i @upupming/hexo-renderer-markdown-it-plus --save

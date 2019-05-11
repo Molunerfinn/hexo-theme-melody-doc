@@ -407,7 +407,7 @@ katex:
     css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
 ```
 
-You don't need `katex.min.js` to render math equations. Instead, you have to uninstall your old hexo render, and then install `hexo-renderer-markdown-it-plus`:
+You don't need `katex.min.js` to render math equations. Instead, you have to uninstall your old hexo render and `hexo-math`, and then install `hexo-renderer-markdown-it-plus`:
 
 ```bash
 # Uninstall `hexo-renderer-kramed` or `hexo-renderer-marked` or whatever your hexo markdown renderer
@@ -417,6 +417,9 @@ npm un hexo-renderer-marked --save
 # or
 
 npm un hexo-renderer-kramed --save
+
+# uninstall `hexo-math`
+npm un hexo-math --save
 
 # install `hexo-renderer-markdown-it-plus`
 npm i @upupming/hexo-renderer-markdown-it-plus --save
