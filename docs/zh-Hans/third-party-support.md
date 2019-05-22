@@ -422,7 +422,21 @@ npm i @upupming/hexo-renderer-markdown-it-plus --save
 
 注意到 [`hexo-renderer-markdown-it-plus`](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus) 已经无人持续维护, 所以我们使用 [`@upupming/hexo-renderer-markdown-it-plus`](https://github.com/upupming/hexo-renderer-markdown-it-plus)。 这份fork的代码使用了 [`@neilsustc/markdown-it-katex`](https://github.com/yzhang-gh/markdown-it-katex) 同时它也是VSCode的插件[Markdown All in One](https://github.com/yzhang-gh/vscode-markdown)所使用的, 所以我们可以获得最新的KaTex功能例如 `\tag{}`。
 
-因为KaTex更快更轻量，并且有一些新功能是MathJax没有的（比如右键菜单）。为那些使用MathJax的用户，我们也为KaTex默认添加添加了 [*Copy As TeX Code*](https://github.com/upupming/katex-copytex) 的功能。
+你还可以通过 [`@neilsustc/markdown-it-katex`](https://github.com/yzhang-gh/markdown-it-katex) 控制 KaTeX 的设置，所有可配置的选项参见 https://katex.org/docs/options.html。 比如你想要禁用掉 KaTeX 在命令行上输出的冗长的警告信息，你可以在根目录的 `_config.yml` 中使用下面的配置将 `strict` 设置为 false:
+
+```yml
+markdown_it_plus:
+    plugins:
+        - plugin:
+            name: '@neilsustc/markdown-it-katex'
+            enable: true
+            options:
+              strict: false
+```
+
+当然，你还可以利用这个特性来定义一些自己常用的 `macros`。
+
+因为KaTeX更快更轻量，因此没有 MathJax 的功能多（比如右键菜单）。为那些使用MathJax的用户，我们也为KaTeX默认添加了 [*Copy As TeX Code*](https://github.com/upupming/katex-copytex) 的功能。
 
 #### 截图
 

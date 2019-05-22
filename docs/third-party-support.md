@@ -427,6 +427,20 @@ npm i @upupming/hexo-renderer-markdown-it-plus --save
 
 Note [`hexo-renderer-markdown-it-plus`](https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus) is out-of-maintenance, so we use [`@upupming/hexo-renderer-markdown-it-plus`](https://github.com/upupming/hexo-renderer-markdown-it-plus). This fork makes use of [`@neilsustc/markdown-it-katex`](https://github.com/yzhang-gh/markdown-it-katex) which is also used by VS Code plugin [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown), so we will get latest KaTeX features such as `\tag{}`.
 
+And you can customize KaTeX as you want through [`@neilsustc/markdown-it-katex`](https://github.com/yzhang-gh/markdown-it-katex), all the options available is at https://katex.org/docs/options.html. For example, if you want to disable the noisy warning printed by KaTeX in the console, you can set the `strict` to false by add the following lines in your root `_config.yml`:
+
+```yml
+markdown_it_plus:
+    plugins:
+        - plugin:
+            name: '@neilsustc/markdown-it-katex'
+            enable: true
+            options:
+              strict: false
+```
+
+Of course, you can define you own `macros` using this feature.
+
 Because KaTeX is faster and lightweight, there are fewer features than MathJax (right-click menu). For those are used to MathJax, we also added [*Copy As TeX Code*](https://github.com/upupming/katex-copytex) support for KaTeX, which is enabled by default.
 
 #### Screenshot
