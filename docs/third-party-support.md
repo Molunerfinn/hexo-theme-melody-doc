@@ -431,12 +431,12 @@ And you can customize KaTeX as you want through [`@neilsustc/markdown-it-katex`]
 
 ```yml
 markdown_it_plus:
-    plugins:
-        - plugin:
-            name: '@neilsustc/markdown-it-katex'
-            enable: true
-            options:
-              strict: false
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      enable: true
+      options:
+        strict: false
 ```
 
 Of course, you can define you own `macros` using this feature.

@@ -426,12 +426,12 @@ npm i @upupming/hexo-renderer-markdown-it-plus --save
 
 ```yml
 markdown_it_plus:
-    plugins:
-        - plugin:
-            name: '@neilsustc/markdown-it-katex'
-            enable: true
-            options:
-              strict: false
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      enable: true
+      options:
+        strict: false
 ```
 
 当然，你还可以利用这个特性来定义一些自己常用的 `macros`。
