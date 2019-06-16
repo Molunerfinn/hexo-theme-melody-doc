@@ -462,3 +462,69 @@ fireworks: true
 #### 截图
 
 ![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
+
+------
+
+## Live2D动画模型挂件
+
+### 安装 & 部署
+
+#### 安装Live2D模块
+
+使用如下指令安装Live2D模块、需要在博客的根目录通过终端执行:
+
+```yaml
+npm install --save hexo-helper-live2d
+```
+
+如果不想使用、想彻底卸载，命令如下：
+
+```yaml
+npm uninstall hexo-helper-live2d
+```
+
+#### 配置喜欢的动画模型
+
+有非常多的`Live2D`动画模型供我们选择：
+
+  1.对应的模块下载在[这里](https://github.com/xiazeyu/live2d-widget-models)
+
+如我使用的是`tororo(萌萌哒白猫)`，可以直接在上面的下载界面:
+
+  1.手动下载完成之后将`packages`里面的所有文件拷贝到博客根目录的`node_moduels`文件夹下。
+
+  2.也可以使用包管理器安装，命令格式：`npm install 模型的包名`，也会安装在`node_moduels`目录下。
+  
+  3.打开博客根目录的配置文件`_config.yml`，添加如下内容：
+  
+  ```yaml
+  # Live2D
+
+  live2d:
+  model:
+    scale: 1
+    hHeadPos: 0.5
+    vHeadPos: 0.618
+    use: live2d-widget-model-tororo // 下载的动画模型名称
+  display:
+    superSample: 2
+    width: 120
+    height: 200
+    position: left // 模型在网页显示位置
+    hOffset: 20
+    vOffset: 50
+  mobile:
+    show: true  // 移动设备是否显示
+    scale: 0.5
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.2
+  ```
+
+快去领取属于你萌萌哒白猫吧!
+
+#### 截图
+
+![](https://jacklin-zhang.cn/img/tororo.jpg)
+
+------
