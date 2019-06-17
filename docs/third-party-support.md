@@ -467,3 +467,66 @@ Try to click the page body!
 
 ![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)
 
+
+------
+
+## Live2D Animated model pendant
+
+### Installation
+
+#### Live2D model
+
+Use the following command to install the `Live2D` module, which needs to be executed in the `root` directory of the blog through the terminal:
+
+```yaml
+npm install --save hexo-helper-live2d
+```
+
+If you don't want to use it and want to uninstall it completely, the command is as follows:
+
+```yaml
+npm uninstall hexo-helper-live2d
+```
+
+#### Configure your favorite animated model
+
+There are a lot of `Live2D` animation models for us to choose from:
+
+  1.The corresponding module is downloaded [here](https://github.com/xiazeyu/live2d-widget-models)
+
+For example, I use `tororo(Cute White Cat)`, which can be directly in the download interface above:
+
+  1.After the manual download is complete, copy all the files in `packages` to the `node_moduels` folder in the root directory of the blog.
+
+  2.It can also be installed using the package manager. The command format: `npm install model package name` will also be installed in the `node_moduels` directory.
+
+  3.Open the configuration file `_config.yml` of the blog root directory and add the following content:
+
+```yaml
+# Live2D
+live2d:
+  enable: true
+# enable: false
+  scriptFrom: local # default
+  pluginRootPath: live2dw/ # Plugin on the root of the site
+  pluginJsPath: lib/ # Script file relative to the plugin root directory path
+  pluginModelPath: assets/ # Model file relative to plugin root directory path
+  model:   
+    use: live2d-widget-model-tororo # Downloaded animated model name
+  display:
+    superSample: 2
+    width: 210
+    height: 420
+    position: left # Where the model is displayed on the web page
+    hOffset: 0
+    vOffset: -20
+```
+
+
+Go and pick up your cute white cat!
+
+#### Screenshot
+
+![](https://jacklin-zhang.cn/img/tororo.jpg)
+
+------
