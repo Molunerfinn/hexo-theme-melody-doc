@@ -467,9 +467,9 @@ fireworks: true
 
 ## Live2D动画模型挂件
 
-### 安装 & 部署
+### 安装
 
-#### 安装Live2D模块
+#### Live2D模块
 
 使用如下指令安装Live2D模块、需要在博客的根目录通过终端执行:
 
@@ -495,31 +495,27 @@ npm uninstall hexo-helper-live2d
 
   2.也可以使用包管理器安装，命令格式：`npm install 模型的包名`，也会安装在`node_moduels`目录下。
   
-  3.打开博客根目录的配置文件`_config.yml`，添加如下内容：
-  
-  ```yaml
-  # Live2D
+  3.打开博客根目录的配置文件`_config.yml`，添加如下内容：  
 
-  live2d:
-  model:
-    scale: 1
-    hHeadPos: 0.5
-    vHeadPos: 0.618
-    use: live2d-widget-model-tororo // 下载的动画模型名称
+```yaml
+# Live2D
+live2d:
+  enable: true
+# enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  model:   
+    use: live2d-widget-model-tororo # 下载的动画模型名称
   display:
     superSample: 2
-    width: 120
-    height: 200
-    position: left // 模型在网页显示位置
-    hOffset: 20
-    vOffset: 50
-  mobile:
-    show: true  // 移动设备是否显示
-    scale: 0.5
-  react:
-    opacityDefault: 0.7
-    opacityOnHover: 0.2
-  ```
+    width: 210
+    height: 420
+    position: left # 模型显示在网页上的位置
+    hOffset: 0
+    vOffset: -20
+```
 
 快去领取属于你萌萌哒白猫吧!
 
