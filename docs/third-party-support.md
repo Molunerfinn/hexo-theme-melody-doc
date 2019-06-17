@@ -520,8 +520,6 @@ live2d:
     position: left # Where the model is displayed on the web page
     hOffset: 0
     vOffset: -20
-  mobile:
-    show: true  # Whether the mobile device displays 
 ```
 
 
