@@ -11,7 +11,7 @@ git clone -b master https://github.com/Molunerfinn/hexo-theme-melody themes/melo
 
 如果你想要选择`theme-melody`某个特定版本，举个例子, 进入`themes/melody`文件夹，然后
 
-`git checkout tags/v1.0` > 把主题版本改到v1.0
+`git checkout v1.0` > 把主题版本改到v1.0
 
 > 通过`git tag -l`你可以看到所有的版本
 

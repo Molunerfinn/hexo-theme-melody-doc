@@ -13,7 +13,7 @@ if you want to choose a specific version of `theme-melody`
 
 For example, get into the `themes/melody` folder and then
 
-`git checkout tags/v1.0` > Change the theme version to v1.0
+`git checkout v1.0` > Change the theme version to v1.0
 
 > You can view all the versions by `git tag -l`
 
