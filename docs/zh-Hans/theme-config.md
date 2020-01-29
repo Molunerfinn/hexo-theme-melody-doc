@@ -32,11 +32,7 @@ language: en
 
 ------
 
-## 自定义主题色
-
-::: tip
-版本 v1.5.6
-:::
+## 自定义主题色 <Badge text="v1.5.6+" />
 
 现在你可以修改大部分主题用到的颜色，改成你所喜欢的任何颜色。
 
@@ -110,11 +106,7 @@ highlight_theme: default # default/darker/pale night/light
 
 ------
 
-## 代码换行
-
-::: tip
-版本 v1.5.6
-:::
+## 代码换行 <Badge text="v1.5.6+" />
 
 在默认情况下，`hexo-highlight`在编译的时候不会实现代码自动换行。如果你不希望在代码块的区域里有横向滚动条的话，那么你可以考虑开启这个功能。
 
@@ -270,11 +262,7 @@ menu:
 
 ------
 
-## 自动节选
-
-::: tip
-版本 v1.5
-:::
+## 自动节选 <Badge text="v1.5.0+" />
 
 现在，从版本1.5开始，如果你没有在`melody.yml`里设置`auto_excerpt`的选项，你的文章将会在首页上完整地展现出来。如果你在文章里加上了`<!-- more -->`标记，那么它将会被替换成`阅读更多`的一个按钮。如果你不想在每篇文章里都加上`<!-- more -->`这个标记，那么你可以通过设置`auto_excerpt`来自动帮你生成文章节选。（默认取前150个字）
 
@@ -376,11 +364,7 @@ post_meta:
 
 ------
 
-## 文章版权
-
-::: tip
-版本 v1.1
-:::
+## 文章版权 <Badge text="v1.1.0+" />
 
 为你的博客文章展示文章版权和许可协议。
 
@@ -399,11 +383,7 @@ post_copyright:
 
 ------
 
-## 文章相关二维码
-
-::: tip
-版本 v1.1
-:::
+## 文章相关二维码 <Badge text="v1.1.0+" />
 
 在你每篇文章的结尾，给读者展示你自己的二维码。二维码的图片url以及相关说明都取决于你。配置格式如下：
 
@@ -425,11 +405,7 @@ QR_code:
 
 ------
 
-## 文章广告区
-
-::: tip
-版本 v1.4
-:::
+## 文章广告区 <Badge text="v1.4.0+" />
 
 在你的文章页面里加上广告！你可以放置一个你自己想展示的广告或者也可以是个音乐播放器等等。这个区域你做主。
 
@@ -467,11 +443,7 @@ avatar: https://xxxx.jpg
 
 ------
 
-## Follow Me 按钮
-
-::: tip
-版本 v1.5.4
-:::
+## Follow Me 按钮 <Badge text="v1.5.4+" />
 
 配置`melody.yml`
 
@@ -572,11 +544,7 @@ since: 2013
 
 ------
 
-## 页脚自定义文本
-
-::: tip
-版本 v1.5.5
-:::
+## 页脚自定义文本  <Badge text="v1.5.5+" />
 
 `footer_custom_text`是一个给你用来在页脚自定义文本的选项。通常你可以在这里写ICP备案号、码云声明文本等。支持HTML。
 
@@ -589,3 +557,23 @@ footer_custom_text: Hi, welcome to my <a href="https://molunerfinn.com">blog</a>
 ### 截图
 
 ![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/footer_custom_text.png)
+
+------
+
+## 特效
+
+### 烟花
+
+模仿[anime.js官网](http://animejs.com/)的点击效果
+
+配置`melody.yml`
+
+```yaml
+fireworks: true
+```
+
+尝试去点击一下网站主体部分吧!
+
+#### 截图
+
+![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)

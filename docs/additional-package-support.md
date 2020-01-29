@@ -8,11 +8,7 @@ sidebarDepth: 1
 
 ------
 
-## PWA 
-
-::: tip
-Since v1.2
-:::
+## PWA <Badge text="v1.2.0" />
 
 To have the PWA feature for `theme-melody`, you need to do the following things:
 
@@ -122,65 +118,63 @@ For more on PWA (Progressive Enhanced Web Applications), see [Google Tools for W
 
 ------
 
-## Word counting
+## Live2D Animated model pendant
 
-::: tip
-Since v1.3
-:::
+### Installation
 
-To have the word counting feature for `theme-melody`, you need to do the following things:
+#### Live2D model
 
-1. Go to the hexo site folder
-2. `npm install hexo-wordcount --save` or `yarn add hexo-wordcount`
-3. Set the `melody.yml`
+Use the following command to install the `Live2D` module, which needs to be executed in the `root` directory of the blog through the terminal:
 
 ```yaml
-wordcount:
+npm install --save hexo-helper-live2d
+```
+
+If you don't want to use it and want to uninstall it completely, the command is as follows:
+
+```yaml
+npm uninstall hexo-helper-live2d
+```
+
+#### Configure your favorite animated model
+
+There are a lot of `Live2D` animation models for us to choose from:
+
+  1.The corresponding module is downloaded [here](https://github.com/xiazeyu/live2d-widget-models)
+
+For example, I use `tororo(Cute White Cat)`, which can be directly in the download interface above:
+
+  1.After the manual download is complete, copy all the files in `packages` to the `node_moduels` folder in the root directory of the blog.
+
+  2.It can also be installed using the package manager. The command format: `npm install model package name` will also be installed in the `node_moduels` directory.
+
+  3.Open the configuration file `_config.yml` of the blog root directory and add the following content:
+
+```yaml
+# Live2D
+live2d:
   enable: true
+# enable: false
+  scriptFrom: local # default
+  pluginRootPath: live2dw/ # Plugin on the root of the site
+  pluginJsPath: lib/ # Script file relative to the plugin root directory path
+  pluginModelPath: assets/ # Model file relative to plugin root directory path
+  model:   
+    use: live2d-widget-model-tororo # Downloaded animated model name
+  display:
+    superSample: 2
+    width: 210
+    height: 420
+    position: left # Where the model is displayed on the web page
+    hOffset: 0
+    vOffset: -20
 ```
 
-### Screenshot
 
-![](https://user-images.githubusercontent.com/12621342/34635947-be617e0e-f2d1-11e7-918e-594e1a22ab90.png)
+Go and pick up your cute white cat!
 
-## Sticky posts
+#### Screenshot
 
-::: tip
-Since v1.6
-:::
+![](https://jacklin-zhang.cn/img/tororo.jpg)
 
-To have the ability to stikcy posts, you need to do the following things:
-
-1. Go to the hexo site folder
-2. `npm uninstall hexo-generator-index --save` and then `npm install hexo-generator-index-pin-top --save`
-3. You can add the `top: True` field to post's front-matter to pin it.
-4. You can checkout [hexo-generator-index-pin-top](https://github.com/netcan/hexo-generator-index-pin-top) for more details.
-
-For example:
-
-if one of your post file is like the following:
-
-```yaml
-title: xxxx
-tags:
-  - xxx
-date: 2018-08-08 08:08:08
----
-// ....
-```
-
-now add the `top: True`:
-
-```yaml
-title: xxxx
-tags:
-  - xxx
-date: 2018-08-08 08:08:08
-top: True
----
-// ....
-```
-
-### Screenshot
-
-![](https://user-images.githubusercontent.com/12621342/44832717-37ed4500-ac5e-11e8-9d3d-2580ab36fcac.png)
+------

@@ -15,13 +15,15 @@ melody主题支持多种页面类型。
 3. 你会找到`source/tags/index.md`这个文件
 4. 修改这个文件：
 
-```
+```yaml
 ---
 title: 标签
 date: 2018-01-05 00:00:00
 type: "tags"
 ---
 ```
+
+查看例子: [https://molunerfinn.com/tags/](https://molunerfinn.com/tags/)
 
 ---
 
@@ -32,7 +34,7 @@ type: "tags"
 3. 你会找到`source/categories/index.md`这个文件
 4. 修改这个文件：
 
-```
+```yaml
 ---
 title: 分类
 date: 2018-01-05 00:00:00
@@ -40,13 +42,11 @@ type: "categories"
 ---
 ```
 
+查看例子: [https://molunerfinn.com/categories/](https://molunerfinn.com/categories/)
+
 ---
 
-## 幻灯片Slides页面
-
-::: tip
-版本 v1.5
-:::
+## 幻灯片Slides页面 <Badge text="v1.5.0+" />
 
 Slides页面允许你用markdown书写，并最后通过[reveal.js](https://github.com/hakimel/reveal.js/)输出成漂亮的前端展示页。
 
@@ -166,7 +166,7 @@ type: "slides"
 
 `theme-melody`将会在`你的博客网址/slides/`的地址里展示你的所有slides文章。
 
-查看例子: https://molunerfinn.com/slides/
+查看例子: [https://molunerfinn.com/slides/](https://molunerfinn.com/slides/)
 
 #### 截图
 
@@ -174,11 +174,7 @@ type: "slides"
 
 ---
 
-## 相册
-
-::: tip
-版本 v1.5
-:::
+## 相册 <Badge text="v1.5.0+" />
 
 为你的博客创建一个相册页！
 
@@ -226,3 +222,22 @@ type: "gallery"
 ![](https://user-images.githubusercontent.com/12621342/37325837-7961f112-26ca-11e8-871e-5f7b6ec1dbdc.png)
 
 
+## 404页面 <Badge text="v1.7.0+" />
+
+1. 前往你的Hexo博客的根目录
+2. 输入`hexo new page 404`
+3. 你会找到`source/404/index.md`这个文件
+4. 修改这个文件：
+
+```yaml
+---
+title: 404
+date: 2019-10-13 15:49:05
+layout: 404
+permalink: /404
+---
+```
+
+然后通过 `hexo g` 重新构建，打开 `http://你博客的网址/404.html` 就能看到404页面:
+
+![404 Page](https://user-images.githubusercontent.com/12621342/66727870-5cad7780-ee74-11e9-9353-526446bef76c.png)

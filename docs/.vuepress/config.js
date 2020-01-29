@@ -22,6 +22,7 @@ module.exports = {
   },
   description: 'A simple & beautiful & fast theme for Hexo',
   themeConfig: {
+    smoothScroll: true,
     logo: 'https://raw.githubusercontent.com/Molunerfinn/hexo-theme-melody-doc/master/docs/imgs/logo.png',
     repo: 'Molunerfinn/hexo-theme-melody',
     docsRepo: 'Molunerfinn/hexo-theme-melody-doc',
@@ -41,12 +42,12 @@ module.exports = {
             text: 'Advanced',
             items: [
               {
-                text: 'Theme Config',
-                link: '/theme-config.html'
-              },
-              {
                 text: 'Theme pages',
                 link: '/theme-pages.html'
+              },
+              {
+                text: 'Theme Config',
+                link: '/theme-config.html'
               },
               {
                 text: 'Third-party',
@@ -73,12 +74,12 @@ module.exports = {
             text: '高级技巧',
             items: [
               {
-                text: '主题配置',
-                link: '/zh-Hans/theme-config.html'
-              },
-              {
                 text: '主题页面',
                 link: '/zh-Hans/theme-pages.html'
+              },
+              {
+                text: '主题配置',
+                link: '/zh-Hans/theme-config.html'
               },
               {
                 text: '第三方支持',
@@ -104,24 +105,10 @@ function getEnSidebar () {
       children: [
         '',
         'quick-start',
-        'theme-config',
         'theme-pages',
+        'theme-config',
         'third-party-support',
         'additional-package-support',
-      ]
-    }
-  ]
-}
-
-function getDevSidebar (title) {
-  return [
-    {
-      title,
-      collapsable: false,
-      children: [
-        'cli',
-        'gui',
-        'deploy'
       ]
     }
   ]

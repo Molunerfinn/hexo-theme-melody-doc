@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs"
   },
   "repository": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/Molunerfinn/hexo-theme-melody-doc#readme",
   "devDependencies": {
-    "vuepress": "^0.14.9"
+    "vuepress": "^1.2.0"
   }
 }

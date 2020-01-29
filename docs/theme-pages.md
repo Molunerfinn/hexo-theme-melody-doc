@@ -15,13 +15,15 @@ Theme-melody supports several kinds of pages.
 3. you will find `source/tags/index.md`
 4. modify the `index.md`
 
-```
+```yaml
 ---
 title: tags
 date: 2018-01-05 00:00:00
 type: "tags"
 ---
 ```
+
+See demo: [https://molunerfinn.com/tags/](https://molunerfinn.com/tags/)
 
 ---
 
@@ -32,7 +34,7 @@ type: "tags"
 3. you will find `source/categories/index.md`
 4. modify the `index.md`
 
-```
+```yaml
 ---
 title: categories
 date: 2018-01-05 00:00:00
@@ -40,13 +42,11 @@ type: "categories"
 ---
 ```
 
+See demo: [https://molunerfinn.com/categories/](https://molunerfinn.com/categories/)
+
 ---
 
-## Slides
-
-::: tip
-Since v1.5
-:::
+## Slides <Badge text="v1.5.0+" />
 
 Slides page allows you to write in markdown & output with [reveal.js](https://github.com/hakimel/reveal.js/) to make a beautiful slide page.
 
@@ -81,6 +81,7 @@ Just create a `md` file as usual. Add a attribute called `layout: slides` in you
 For example:
 
 ```
+---
 title: hexo-theme-melody v1.5 supports iframe & slides
 date: 2018-03-06 19:57:52
 layout: slides
@@ -94,7 +95,8 @@ Also you can set a slide page with specific `slide` config by add slide options 
 
 For example:
 
-```markdown
+```
+---
 title: hexo-theme-melody v1.5 supports slides & iframe
 date: 2018-03-06 19:57:52
 tags: hexo
@@ -169,7 +171,7 @@ type: "slides"
 
 `your-blog-url/slides/`
 
-See demo: https://molunerfinn.com/slides/
+See demo: [https://molunerfinn.com/slides/](https://molunerfinn.com/slides/)
 
 ### Screenshot
 
@@ -177,11 +179,7 @@ See demo: https://molunerfinn.com/slides/
 
 ---
 
-## Gallery
-
-::: tip
-Since v1.5
-:::
+## Gallery <Badge text="v1.5.0+" />
 
 To create a gallery page for your blog!
 
@@ -229,3 +227,22 @@ type: "gallery"
 ![](https://user-images.githubusercontent.com/12621342/37325837-7961f112-26ca-11e8-871e-5f7b6ec1dbdc.png)
 
 
+## 404 Page <Badge text="v1.7.0+" />
+
+1. get to your hexo blog root folder.
+2. type `hexo new page 404`
+3. you will find `source/404/index.md`
+4. modify the `index.md`
+
+```yaml
+---
+title: 404
+date: 2019-10-13 15:49:05
+layout: 404
+permalink: /404
+---
+```
+
+Then `hexo g` and open `http://yoursite.com/404.html`:
+
+![404 Page](https://user-images.githubusercontent.com/12621342/66727870-5cad7780-ee74-11e9-9353-526446bef76c.png)

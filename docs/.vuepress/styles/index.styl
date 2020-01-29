@@ -59,7 +59,7 @@ transition()
 
 // styles
 // -------------
-.home .hero .action-button
+#app .home .hero .action-button
   background $theme-color
   border-bottom $theme-color
   text-decoration none
@@ -91,12 +91,10 @@ a
   border-right 0
   box-shadow -0.25rem 0 0.25rem rgba(232,237,250,.6) inset
 
-a.sidebar-link
-  &:hover
-    color $theme-text-selection-color
-  &.active
-    border-left-color $theme-text-selection-color
-    color $theme-text-selection-color
+  a.sidebar-link
+    &.active
+      border-left-color $theme-text-selection-color
+      color $theme-text-selection-color
 
 .sidebar-sub-headers
   a.sidebar-link
@@ -113,14 +111,17 @@ a.sidebar-link
 pre[class*="language-"]
   background: $highlight-background
 
-.content pre code,
-.content pre[class*="language-"] code
+.theme-default-content pre code,
+.theme-default-content pre[class*="language-"] code
   color $highlight-foreground
   font-family consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number
 
-#app.content
+#app.theme-default-content
   pre, pre[class*="language-"]
     color $highlight-foreground
+
+.badge
+  background-color $theme-color !important
 
 
 .token.comment,

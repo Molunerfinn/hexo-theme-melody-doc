@@ -31,11 +31,7 @@ disqus:
 
 ![](https://user-images.githubusercontent.com/12621342/34635880-f8a72e84-f2d0-11e7-9343-1f69da841741.png)
 
-### Laibili
-
-::: tip
-Since v1.4
-:::
+### Laibili <Badge text="v1.4.0+" />
 
 Sign up the [laibili](http://www.laibili.com.cn/), setup your own laibili, and enable the laibili in `theme-melody`
 
@@ -55,11 +51,7 @@ The laibili uid you can find in here:
 
 ![](https://user-images.githubusercontent.com/12621342/34594228-c46d0088-f20a-11e7-904d-32e3faa3159e.jpg)
 
-### Gitment
-
-::: warning
-Since v1.4
-:::
+### Gitment <Badge text="v1.4.0+" />
 
 Follow the guide of [gitment](https://github.com/imsun/gitment) to get your github Oauth app's client id and secret.
 
@@ -89,11 +81,7 @@ gitment:
 
 ![](https://user-images.githubusercontent.com/12621342/34594227-c4240c20-f20a-11e7-8463-64386439207f.jpg)
 
-### Gitalk
-
-::: tip
-Since v1.4.3
-:::
+### Gitalk <Badge text="v1.4.3+" />
 
 Follow the guide of [gitalk](https://github.com/gitalk/gitalk) to get your github Oauth app's client id and secret.
 
@@ -113,11 +101,7 @@ gitalk:
 
 ![](https://user-images.githubusercontent.com/12621342/37018676-34892058-2150-11e8-92a0-62d8ed83896c.png)
 
-### Valine
-
-::: tip
-Since v1.4.3
-:::
+### Valine <Badge text="v1.4.3+" />
 
 Follow the guide of [Valine](https://github.com/xCss/Valine) to setup your LeanCloud apps.
 
@@ -227,11 +211,7 @@ algolia_search:
 
 ![](https://user-images.githubusercontent.com/12621342/34635852-8003827a-f2d0-11e7-9975-c1d0bb959122.png)
 
-### Local search
-
-::: tip
-Since v1.3
-:::
+### Local search <Badge text="v1.3.0+" />
 
 1. You should install [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). Follow its doc to setup. **Only supporting the `xml` file**.
 
@@ -281,11 +261,7 @@ baidu_analytics: your code
 google_analytics: your code # usually start with `UA-`
 ```
 
-### Tencent analytics
-
-::: tip
-Since v1.6
-:::
+### Tencent analytics <Badge text="v1.6.0+" />
 
 1. Login the tencent analytics [web site](https://ta.qq.com)
 
@@ -303,11 +279,7 @@ tencent_analytics: your code
 
 ## Adsense
 
-### Google adsense
-
-::: tip
-Since v1.6
-:::
+### Google adsense <Badge text="v1.6.0+" />
 
 1. Login the google adsense [web site](https://www.google.com/adsense)
 
@@ -364,7 +336,9 @@ busuanzi:
 
 ------
 
-## MathJax
+## Mathematical formula
+
+### MathJax
 
 ::: tip
 It is recommended to use Katex for better results, as described below!
@@ -390,13 +364,7 @@ Get in your **hexo site folder** and do the following things(**Not the theme-mel
 
 ![](https://user-images.githubusercontent.com/12621342/34635861-934ef38c-f2d0-11e7-80ae-b37f6b20048a.png)
 
-------
-
-## KaTeX
-
-::: tip
-Since v1.6
-:::
+### KaTeX <Badge text="v1.6.0+" />
 
 Disable MathJax, and then modify your `melody.yml` to load `katex.min.css`:
 
@@ -449,84 +417,57 @@ Because KaTeX is faster and lightweight, there are fewer features than MathJax (
 
 ------
 
-## Effects
+## Word counting <Badge text="v1.3.0+" />
 
-### fireworks
+To have the word counting feature for `theme-melody`, you need to do the following things:
 
-Like the [anime.js](http://animejs.com/) clicking effects
-
-Set the `melody.yml`
-
-```yaml
-fireworks: true
-```
-
-Try to click the page body!
-
-#### Screenshot
-
-![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)
-
-
-------
-
-## Live2D Animated model pendant
-
-### Installation
-
-#### Live2D model
-
-Use the following command to install the `Live2D` module, which needs to be executed in the `root` directory of the blog through the terminal:
+1. Go to the hexo site folder
+2. `npm install hexo-wordcount --save` or `yarn add hexo-wordcount`
+3. Set the `melody.yml`
 
 ```yaml
-npm install --save hexo-helper-live2d
-```
-
-If you don't want to use it and want to uninstall it completely, the command is as follows:
-
-```yaml
-npm uninstall hexo-helper-live2d
-```
-
-#### Configure your favorite animated model
-
-There are a lot of `Live2D` animation models for us to choose from:
-
-  1.The corresponding module is downloaded [here](https://github.com/xiazeyu/live2d-widget-models)
-
-For example, I use `tororo(Cute White Cat)`, which can be directly in the download interface above:
-
-  1.After the manual download is complete, copy all the files in `packages` to the `node_moduels` folder in the root directory of the blog.
-
-  2.It can also be installed using the package manager. The command format: `npm install model package name` will also be installed in the `node_moduels` directory.
-
-  3.Open the configuration file `_config.yml` of the blog root directory and add the following content:
-
-```yaml
-# Live2D
-live2d:
+wordcount:
   enable: true
-# enable: false
-  scriptFrom: local # default
-  pluginRootPath: live2dw/ # Plugin on the root of the site
-  pluginJsPath: lib/ # Script file relative to the plugin root directory path
-  pluginModelPath: assets/ # Model file relative to plugin root directory path
-  model:   
-    use: live2d-widget-model-tororo # Downloaded animated model name
-  display:
-    superSample: 2
-    width: 210
-    height: 420
-    position: left # Where the model is displayed on the web page
-    hOffset: 0
-    vOffset: -20
 ```
-
-
-Go and pick up your cute white cat!
 
 #### Screenshot
 
-![](https://jacklin-zhang.cn/img/tororo.jpg)
+![](https://user-images.githubusercontent.com/12621342/34635947-be617e0e-f2d1-11e7-918e-594e1a22ab90.png)
 
-------
+## Sticky posts <Badge text="v1.6.0+" />
+
+To have the ability to stikcy posts, you need to do the following things:
+
+1. Go to the hexo site folder
+2. `npm uninstall hexo-generator-index --save` and then `npm install hexo-generator-index-pin-top --save`
+3. You can add the `top: True` field to post's front-matter to pin it.
+4. You can checkout [hexo-generator-index-pin-top](https://github.com/netcan/hexo-generator-index-pin-top) for more details.
+
+For example:
+
+if one of your post file is like the following:
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+---
+// ....
+```
+
+now add the `top: True`:
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+top: True
+---
+// ....
+```
+
+#### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/44832717-37ed4500-ac5e-11e8-9d3d-2580ab36fcac.png)

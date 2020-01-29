@@ -8,11 +8,7 @@ sidebarDepth: 1
 
 ------
 
-## PWA
-
-::: tip
-版本 v1.2
-:::
+## PWA <Badge text="v1.2.0+" />
 
 要为`theme-melody`配上PWA特性, 你需要如下几个步骤:
 
@@ -121,65 +117,62 @@ pwa:
 
 ------
 
-## 字数统计
+## Live2D动画模型挂件
 
-::: tip
-版本 v1.3
-:::
+### 安装
 
-要为`theme-melody`配上字数统计特性, 你需要如下几个步骤:
+#### Live2D模块
 
-1. 打开hexo工作目录
-2. `npm install hexo-wordcount --save` or `yarn add hexo-wordcount`
-3. 配置`melody.yml`:
+使用如下指令安装Live2D模块、需要在博客的根目录通过终端执行:
 
 ```yaml
-wordcount:
+npm install --save hexo-helper-live2d
+```
+
+如果不想使用、想彻底卸载，命令如下：
+
+```yaml
+npm uninstall hexo-helper-live2d
+```
+
+#### 配置喜欢的动画模型
+
+有非常多的`Live2D`动画模型供我们选择：
+
+  1.对应的模块下载在[这里](https://github.com/xiazeyu/live2d-widget-models)
+
+如我使用的是`tororo(萌萌哒白猫)`，可以直接在上面的下载界面:
+
+  1.手动下载完成之后将`packages`里面的所有文件拷贝到博客根目录的`node_moduels`文件夹下。
+
+  2.也可以使用包管理器安装，命令格式：`npm install 模型的包名`，也会安装在`node_moduels`目录下。
+
+  3.打开博客根目录的配置文件`_config.yml`，添加如下内容：  
+
+```yaml
+# Live2D
+live2d:
   enable: true
+# enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  model:   
+    use: live2d-widget-model-tororo # 下载的动画模型名称
+  display:
+    superSample: 2
+    width: 210
+    height: 420
+    position: left # 模型显示在网页上的位置
+    hOffset: 0
+    vOffset: -20
 ```
 
-### 截图 
+快去领取属于你萌萌哒白猫吧!
 
-![](https://i.loli.net/2019/04/29/5cc6fe1698a7d.jpg)
+#### 截图
 
-## 文章置顶
+![](https://jacklin-zhang.cn/img/tororo.jpg)
 
-::: tip
-版本 v1.6
-:::
-
-要为你一些文章置顶，你需要如下步骤:
-
-1. 打开hexo工作目录
-2. `npm uninstall hexo-generator-index --save` 然后 `npm install hexo-generator-index-pin-top --save`
-3. 你要在文章的`front-matter`区域里添加`top: True`属性来把这篇文章置顶。
-4. 你可以参考[hexo-generator-index-pin-top](https://github.com/netcan/hexo-generator-index-pin-top)这个仓库来了解更多细节。
-
-举个例子:
-
-你的某篇文章开头如下：
-
-```yaml
-title: xxxx
-tags:
-  - xxx
-date: 2018-08-08 08:08:08
----
-// ....
-```
-
-现在把`top: True`加进去：
-
-```yaml
-title: xxxx
-tags:
-  - xxx
-date: 2018-08-08 08:08:08
-top: True
----
-// ....
-```
-
-### 截图
-
-![](https://user-images.githubusercontent.com/12621342/44832717-37ed4500-ac5e-11e8-9d3d-2580ab36fcac.png)
+------

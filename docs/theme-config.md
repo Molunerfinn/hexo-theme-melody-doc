@@ -32,11 +32,7 @@ The default language is en.
 
 ------
 
-## Theme color
-
-::: tip
-Since v1.5.6
-:::
+## Theme color <Badge text="v1.5.6+" />
 
 Now you can change most of the theme color to whatever you like.
 
@@ -72,7 +68,7 @@ theme_color:
 - darker
 - pale night
 - light
-- ocean (since v1.5.5)
+- ocean <Badge text="v1.5.5+" />
 
 set the `melody.yml`
 
@@ -100,7 +96,7 @@ highlight_theme: default
 
 ![](https://user-images.githubusercontent.com/12621342/34635718-85337180-f2ce-11e7-8be3-cb01257c2c49.png)
 
-> ocean (since v1.5.5)
+> ocean <Badge text="v1.5.5+" />
 
 ![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/ocean-highlight.png)
 
@@ -110,9 +106,7 @@ As you can see, in the top-right corner of code area, it's a copy icon for you t
 
 ------
 
-## Code Word Wrap
-
-> Since v1.5.6
+## Code Word Wrap <Badge text="v1.5.6+" />
 
 By default, `hexo-highlight` generate the code in long lines. If you don't want a scroll bar in your code area, then you can enable this feature.
 
@@ -270,11 +264,7 @@ menu:
 
 ------
 
-## Auto excerpt
-
-::: tip
-Since v1.5
-:::
+## Auto excerpt <Badge text="v1.5.0+" />
 
 Now, if you do not set `auto_excerpt` options in `melody.yml`, your posts will be all shown in the index page. If you add `<!-- more -->` mark in your post, it will be replaced by a `Read More` button. If you don't want to add `<!-- more -->` in every posts, you can set `auto_excerpt` to auto cut your post in the index page.
 
@@ -376,11 +366,7 @@ The following Screenshots shows the tags:
 
 ------
 
-## Post copyright
-
-::: tip
-Since v1.1
-:::
+## Post copyright <Badge text="v1.1.0+" />
 
 Show the copyright & license for your blog post!
 
@@ -399,11 +385,7 @@ post_copyright:
 
 ------
 
-## Post QR code
-
-::: tip
-Since v1.1
-:::
+## Post QR code <Badge text="v1.1.0+" />
 
 Show your own QR code in the end of a post to readers. The QR code img & the text of it depends on you.
 
@@ -425,11 +407,7 @@ QR_code:
 
 ------
 
-## Post adv area
-
-::: tip
-Since v1.4
-:::
+## Post adv area <Badge text="v1.4.0+" />
 
 Get a adv area for your post! You can put an adv or a music player and so on. It's up to you.
 
@@ -469,11 +447,7 @@ avatar: https://xxxx.jpg
 
 ------
 
-## Follow Me
-
-::: tip
-Since v1.5.4
-:::
+## Follow Me <Badge text="v1.5.4+" />
 
 Set the `melody.yml`.
 
@@ -575,11 +549,7 @@ since: 2013
 
 ------
 
-## footer_custom_text
-
-::: tip
-Since v1.5.5
-:::
+## footer_custom_text <Badge text="v1.5.5+" />
 
 `footer_custom_text` is an option for you to show some texts in the footer area. It supports HTML.
 
@@ -592,3 +562,23 @@ footer_custom_text: Hi, welcome to my <a href="https://molunerfinn.com">blog</a>
 ### Screenshot:
 
 ![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/footer_custom_text.png)
+
+------
+
+## Effects
+
+### fireworks
+
+Like the [anime.js](http://animejs.com/) clicking effects
+
+Set the `melody.yml`
+
+```yaml
+fireworks: true
+```
+
+Try to click the page body!
+
+#### Screenshot
+
+![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)

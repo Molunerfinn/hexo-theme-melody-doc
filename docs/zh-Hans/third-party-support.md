@@ -31,11 +31,7 @@ disqus:
 
 ![](https://user-images.githubusercontent.com/12621342/34635880-f8a72e84-f2d0-11e7-9343-1f69da841741.png)
 
-### Laibili（来必力）
-
-::: tip
-版本1.4
-:::
+### Laibili（来必力） <Badge text="v1.4.0+" />
 
 注册[来必力](http://www.laibili.com.cn/)，配置你自己的来必力设置，然后在`theme-melody`里开启它。
 
@@ -55,11 +51,7 @@ laibili的uid你能在这里找到:
 
 ![](https://user-images.githubusercontent.com/12621342/34594228-c46d0088-f20a-11e7-904d-32e3faa3159e.jpg)
 
-### Gitment
-
-::: tip
-版本 v1.4
-:::
+### Gitment <Badge text="v1.4.0+" />
 
 遵循[gitment](https://github.com/imsun/gitment)的指示去获取你的github Oauth 应用的client id 和 secret值。
 
@@ -89,11 +81,7 @@ gitment:
 
 ![](https://user-images.githubusercontent.com/12621342/34594227-c4240c20-f20a-11e7-8463-64386439207f.jpg)
 
-### Gitalk
-
-::: tip
-版本 v1.4.3
-:::
+### Gitalk  <Badge text="v1.4.3+" />
 
 遵循[gitalk](https://github.com/gitalk/gitalk)的指示去获取你的github Oauth 应用的client id 和 secret值。以及查看它的相关配置说明。
 
@@ -113,11 +101,7 @@ gitalk:
 
 ![](https://user-images.githubusercontent.com/12621342/37018676-34892058-2150-11e8-92a0-62d8ed83896c.png)
 
-### Valine
-
-::: tip
-版本 v1.4.3
-:::
+### Valine <Badge text="v1.4.3+" />
 
 遵循[Valine](https://github.com/xCss/Valine)的指示去配置你的LeanCloud应用。以及查看相应的配置说明。
 
@@ -222,11 +206,7 @@ algolia_search:
 
 ![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjcjmc7d92j21z00ws44q.jpg)
 
-### 本地搜索
-
-::: tip
-版本 v1.3
-:::
+### 本地搜索 <Badge text="v1.3.0+" />
 
 1. 你需要安装 [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). 根据它的文档去做相应配置。**注意格式只支持xml**。
 
@@ -276,11 +256,7 @@ baidu_analytics: 你的代码
 google_analytics: 你的代码 # 通常以`UA-`打头
 ```
 
-### 腾讯分析
-
-::: tip
-版本 v1.6
-:::
+### 腾讯分析 <Badge text="v1.6.0+" />
 
 1. 登录腾讯分析的[网站](https://ta.qq.com)
 
@@ -298,11 +274,7 @@ tencent_analytics: 你的代码
 
 ## 广告
 
-### 谷歌广告
-
-::: tip
-版本 v1.6
-:::
+### 谷歌广告 <Badge text="v1.6.0+" />
 
 1. 登录谷歌广告的[网站](https://www.google.com/adsense)
 
@@ -358,7 +330,9 @@ busuanzi:
 
 ------
 
-## MathJax
+## 数学公式
+
+### MathJax
 
 ::: tip
 建议使用KaTex获得更好的效果，下文有介绍！
@@ -385,13 +359,7 @@ mathjax:
 
 ![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjclb2xajnj21z20m6ac5.jpg)
 
-------
-
-## KaTeX
-
-::: tip
-版本 v1.6
-:::
+### KaTeX <Badge text="v1.6.0+" />
 
 首先禁用`MathJax`（如果你配置过MathJax的话），然后修改你的`melody.yml`以便加载`katex.min.css`:
 
@@ -442,85 +410,62 @@ markdown_it_plus:
 
 <img src=https://user-images.githubusercontent.com/24741764/52897430-47157e80-320f-11e9-821c-ba5517ae096f.gif height=600px>
 
-------
-
-
-## 特效
-
-### 烟花
-
-模仿[anime.js官网](http://animejs.com/)的点击效果
-
-配置`melody.yml`
-
-```yaml
-fireworks: true
-```
-
-尝试去点击一下网站主体部分吧!
-
-#### 截图
-
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjckmubgtnj21z20vidn0.jpg)
 
 ------
 
-## Live2D动画模型挂件
+## 字数统计 <Badge text="v1.3.0+" />
 
-### 安装
+要为`theme-melody`配上字数统计特性, 你需要如下几个步骤:
 
-#### Live2D模块
-
-使用如下指令安装Live2D模块、需要在博客的根目录通过终端执行:
-
-```yaml
-npm install --save hexo-helper-live2d
-```
-
-如果不想使用、想彻底卸载，命令如下：
+1. 打开hexo工作目录
+2. `npm install hexo-wordcount --save` or `yarn add hexo-wordcount`
+3. 配置`melody.yml`:
 
 ```yaml
-npm uninstall hexo-helper-live2d
-```
-
-#### 配置喜欢的动画模型
-
-有非常多的`Live2D`动画模型供我们选择：
-
-  1.对应的模块下载在[这里](https://github.com/xiazeyu/live2d-widget-models)
-
-如我使用的是`tororo(萌萌哒白猫)`，可以直接在上面的下载界面:
-
-  1.手动下载完成之后将`packages`里面的所有文件拷贝到博客根目录的`node_moduels`文件夹下。
-
-  2.也可以使用包管理器安装，命令格式：`npm install 模型的包名`，也会安装在`node_moduels`目录下。
-
-  3.打开博客根目录的配置文件`_config.yml`，添加如下内容：  
-
-```yaml
-# Live2D
-live2d:
+wordcount:
   enable: true
-# enable: false
-  scriptFrom: local # 默认
-  pluginRootPath: live2dw/ # 插件在站点上的根目录
-  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
-  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
-  model:   
-    use: live2d-widget-model-tororo # 下载的动画模型名称
-  display:
-    superSample: 2
-    width: 210
-    height: 420
-    position: left # 模型显示在网页上的位置
-    hOffset: 0
-    vOffset: -20
 ```
 
-快去领取属于你萌萌哒白猫吧!
+#### 截图 
+
+![](https://i.loli.net/2019/04/29/5cc6fe1698a7d.jpg)
+
+-----
+
+## 文章置顶 <Badge text="v1.6.0+" />
+
+要为你一些文章置顶，你需要如下步骤:
+
+1. 打开hexo工作目录
+2. `npm uninstall hexo-generator-index --save` 然后 `npm install hexo-generator-index-pin-top --save`
+3. 你要在文章的`front-matter`区域里添加`top: True`属性来把这篇文章置顶。
+4. 你可以参考[hexo-generator-index-pin-top](https://github.com/netcan/hexo-generator-index-pin-top)这个仓库来了解更多细节。
+
+举个例子:
+
+你的某篇文章开头如下：
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+---
+// ....
+```
+
+现在把`top: True`加进去：
+
+```yaml
+title: xxxx
+tags:
+  - xxx
+date: 2018-08-08 08:08:08
+top: True
+---
+// ....
+```
 
 #### 截图
 
-![](https://jacklin-zhang.cn/img/tororo.jpg)
-
-------
+![](https://user-images.githubusercontent.com/12621342/44832717-37ed4500-ac5e-11e8-9d3d-2580ab36fcac.png)
