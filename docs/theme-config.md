@@ -2,10 +2,10 @@
 sidebarDepth: 1
 ---
 
-# Theme config
+# Theme-config
 -----
 
-## Configuration file introduction
+## Configuration File Introduction
 
 * root `_config.yml` is the hexo work folder config file
 * `melody.yml` is the `theme-melody` config file which you should copy the theme `_config.yml` to the hexo work folder's `source/_data/melody.yml`
@@ -32,7 +32,7 @@ The default language is en.
 
 ------
 
-## Theme color <Badge text="v1.5.6+" />
+## Theme Color <Badge text="v1.5.6+" />
 
 Now you can change most of the theme color to whatever you like.
 
@@ -52,6 +52,8 @@ theme_color:
   link_color: "#000"
   hr_color: "#000"
   meta_color: "#000"
+  header_text_color: "#000" # v1.7.0+
+  footer_text_color: "#000" # v1.7.0+
 ```
 
 ### Screenshot
@@ -60,7 +62,7 @@ theme_color:
 
 ------
 
-## Highlight theme
+## Highlight Theme
 
 `theme-melody` supports the [Material Theme](https://github.com/equinusocio/material-theme) code highlight and full five color schemes:
 
@@ -80,27 +82,27 @@ highlight_theme: default
 
 > default
 
-![](https://user-images.githubusercontent.com/12621342/34635716-7cab20ee-f2ce-11e7-94cb-9d5a43adc682.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xjkx0j212k0h8gop.jpg)
 
 > darker
 
-![](https://user-images.githubusercontent.com/12621342/34635714-7348ddf2-f2ce-11e7-8c0a-d078d9c2d9ef.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xhpzmj212o0ha77e.jpg)
 
 
 > pale night
 
-![](https://user-images.githubusercontent.com/12621342/34635710-6a552d2c-f2ce-11e7-8420-199f60705522.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xnytuj212m0h6whm.jpg)
 
 
 > light
 
-![](https://user-images.githubusercontent.com/12621342/34635718-85337180-f2ce-11e7-8be3-cb01257c2c49.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xkvwmj212g0h8ad5.jpg)
 
 > ocean <Badge text="v1.5.5+" />
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/ocean-highlight.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/ocean-highlight.png)
 
-### Copy support
+### Copy Support
 
 As you can see, in the top-right corner of code area, it's a copy icon for you to copy the code by clicking.
 
@@ -145,11 +147,11 @@ Take a look:
 
 > Before set the `code_word_wrap`:
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/no_code_wrap_for_melody.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/no_code_wrap_for_melody.png)
 
 > After set the `code_word_wrap`:
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/code_wrap_for_melody.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/code_wrap_for_melody.png)
 
 
 ------
@@ -264,7 +266,7 @@ menu:
 
 ------
 
-## Auto excerpt <Badge text="v1.5.0+" />
+## Auto Excerpt <Badge text="v1.5.0+" />
 
 Now, if you do not set `auto_excerpt` options in `melody.yml`, your posts will be all shown in the index page. If you add `<!-- more -->` mark in your post, it will be replaced by a `Read More` button. If you don't want to add `<!-- more -->` in every posts, you can set `auto_excerpt` to auto cut your post in the index page.
 
@@ -282,9 +284,9 @@ auto_excerpt:
 
 ------
 
-## Top-img
+## Top Img
 
-`Top-img` is the `theme-melody` most magic option. It can have `true` or `false` or `specific img url` values.
+`Top Img` is the `theme-melody` most magic option. It can have `true` or `false` or `specific img url` values.
 
 set the `melody.yml`
 
@@ -298,31 +300,31 @@ There are Screenshots of the three different values:
 
 > For the index site page
 
-![](https://user-images.githubusercontent.com/12621342/34635727-95965470-f2ce-11e7-9223-11189b86210b.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
 
 > For the post page
 
-![](https://user-images.githubusercontent.com/12621342/34635728-99bed54a-f2ce-11e7-9d81-599132cbaf6a.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf1226nrj21z20u2gr6.jpg)
 
 - `top_img: false`
 
 > For the index site page
 
-![](https://user-images.githubusercontent.com/12621342/34635729-9f0f060a-f2ce-11e7-8249-4a15bec8499a.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbeyeimscj21z20y0ju7.jpg)
 
 > For the post page
 
-![](https://user-images.githubusercontent.com/12621342/34635731-a43bf02a-f2ce-11e7-9aa2-b1474b3cd257.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbeyf0x5sj21z20xoal5.jpg)
 
 - `top_img: https://xxxxx.jpg`
 
 > For the index site page
 
-![](https://user-images.githubusercontent.com/12621342/34635734-a8f03ac2-f2ce-11e7-8afe-512c4eded68d.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf9wlz0qj21z20xy7wk.jpg)
 
 > For the post page
 
-![](https://user-images.githubusercontent.com/12621342/34635736-ad06cbee-f2ce-11e7-951d-c40341b396c0.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf9nwhm0j21z20ue1l0.jpg)
 
 ### Set the specific post-item's self top-img
 
@@ -344,15 +346,26 @@ After that, your specific post will have it's own top-img instead of the theme t
 
 ------
 
-## Post meta
+## Top Img Height <Badge text="v1.7.0+" />
 
-`Post meta` is a option to show the information of a post.
+Since `v1.7.0` you can control the `top_img_height`! The default value is `60` which means the `top_img` will occupy 60% of the page height. So if you like, you can set the value to `100` to have a full page top_img!
 
-set the `melody.yml`
+Set the `melody.yml`
+
+```yaml
+top_img_height: 60
+```
+------
+
+## Post Meta
+
+`Post Meta` is a option to show the information of a post.
+
+Set the `melody.yml`
 
 ```yaml
 post_meta:
-  date_type: created # or updated
+  date_type: created # or updated or both(v1.7.0+)
   categories: true # or false
   tags: true # or false
 ```
@@ -362,11 +375,11 @@ In the top of a post, you can see the date of post and the categories of post. I
 The following Screenshots shows the tags:
 
 
-![](https://user-images.githubusercontent.com/12621342/34635738-b3769ce8-f2ce-11e7-9096-16c82c3d24d8.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
 
 ------
 
-## Post copyright <Badge text="v1.1.0+" />
+## Post Copyright <Badge text="v1.1.0+" />
 
 Show the copyright & license for your blog post!
 
@@ -381,11 +394,11 @@ post_copyright:
 
 ### Screenshot
 
-![](https://user-images.githubusercontent.com/12621342/34635740-b80da882-f2ce-11e7-9bc1-8664f39d6e17.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
 
 ------
 
-## Post QR code <Badge text="v1.1.0+" />
+## Post QR Code <Badge text="v1.1.0+" />
 
 Show your own QR code in the end of a post to readers. The QR code img & the text of it depends on you.
 
@@ -403,11 +416,11 @@ QR_code:
 
 ### Screenshot
 
-![](https://user-images.githubusercontent.com/12621342/34635742-bcb9f980-f2ce-11e7-9a3a-892695a6d666.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
 
 ------
 
-## Post adv area <Badge text="v1.4.0+" />
+## Post Adv Area <Badge text="v1.4.0+" />
 
 Get a adv area for your post! You can put an adv or a music player and so on. It's up to you.
 
@@ -433,9 +446,28 @@ adv:
 
 ------
 
+## Sidebar Display <Badge text="v1.7.0+" />
+
+Since `v1.7.0`, you can set the `melody.yml` to control the sidebar to automatically show in specific page or not. The default `sidebar_display` value is `post`, means the sidebar will automatically display in the post page.
+
+```yaml
+sidebar_display: post # all/index/post/index-none/post-none/hidden
+```
+
+All options are described below
+
+- `all`: all page will automatically show the sidebar
+- `index`: just the index page will automatically show the sidebar
+- `post`: just the post page will automatically show the sidebar
+- `index-none`: just the index page won't automatically show the sidebar
+- `post-none`: just the post page won't automatically show the sidebar
+- `hidden`: all the page won't automatically show the sidebar
+
+------
+
 ## Avatar
 
-Set the `melody.yml`.
+Set the `melody.yml`. Please select an image of equal length and width.
 
 ```yaml
 avatar: https://xxxx.jpg
@@ -443,7 +475,7 @@ avatar: https://xxxx.jpg
 
 ### Screenshot
 
-![](https://user-images.githubusercontent.com/12621342/34635748-c5962902-f2ce-11e7-9d52-1d343e868dbb.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
 
 ------
 
@@ -464,7 +496,7 @@ follow:
 
 ------
 
-## Friend links
+## Friend Links
 
 In the sidebar, you can set some links to your friends or some web pages. The format is `name: url`
 
@@ -480,7 +512,7 @@ links:
 
 ### Screenshot:
 
-![](https://user-images.githubusercontent.com/12621342/34635749-ca9a1b98-f2ce-11e7-9260-ac9052332ace.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
 
 ------
 
@@ -521,11 +553,11 @@ After that, your specific post will have it's own top-number control instead of 
 
 > `enable: true`
 
-![](https://user-images.githubusercontent.com/12621342/34635750-cef0b3f0-f2ce-11e7-8cd6-019b3399d861.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbgcwyvbrj21z21307fh.jpg)
 
 > `enable: false`
 
-![](https://user-images.githubusercontent.com/12621342/34635751-d3428492-f2ce-11e7-9fb5-053dcaa44e5f.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
 
 > `number: false`
 
@@ -539,17 +571,17 @@ After that, your specific post will have it's own top-number control instead of 
 
 set the `melody.yml`
 
-```
+```yaml
 since: 2013
 ```
 
 ### Screenshot:
 
-![](https://user-images.githubusercontent.com/12621342/34635752-d82a78ac-f2ce-11e7-9081-e89425eb6a8c.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
 
 ------
 
-## footer_custom_text <Badge text="v1.5.5+" />
+## Footer Custom Text <Badge text="v1.5.5+" />
 
 `footer_custom_text` is an option for you to show some texts in the footer area. It supports HTML.
 
@@ -559,9 +591,21 @@ set the `melody.yml`
 footer_custom_text: Hi, welcome to my <a href="https://molunerfinn.com">blog</a>!
 ```
 
+### hitokoto <Badge text="v1.7.0+" />
+
+if you set:
+
+```yaml
+footer_custom_text: hitokoto
+```
+
+then the `footer_custom_text` will generate random text for your site!
+
+See demo: [https://blog.k1yoshi.com/](https://blog.k1yoshi.com/)
+
 ### Screenshot:
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/footer_custom_text.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/footer_custom_text.png)
 
 ------
 
@@ -582,3 +626,20 @@ Try to click the page body!
 #### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)
+
+### ribbon
+
+Set the `melody.yml` and chekcout [ribbon.js](https://github.com/hustcc/ribbon.js) for more details.
+
+```yaml
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false
+```
+
+#### Screenshot
+
+![](https://user-images.githubusercontent.com/9944833/55931873-c5176400-5c59-11e9-9230-3358f19202e9.png)

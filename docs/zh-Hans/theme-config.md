@@ -52,11 +52,13 @@ theme_color:
   link_color: "#000"
   hr_color: "#000"
   meta_color: "#000"
+  header_text_color: "#000" # v1.7.0+
+  footer_text_color: "#000" # v1.7.0+
 ```
 
 ### 截图
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/new_theme_for_melody.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/new_theme_for_melody.png)
 
 ------
 
@@ -80,25 +82,25 @@ highlight_theme: default # default/darker/pale night/light
 
 > default
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xjkx0j212k0h8gop.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xjkx0j212k0h8gop.jpg)
 
 > darker
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xhpzmj212o0ha77e.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xhpzmj212o0ha77e.jpg)
 
 
 > pale night
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xnytuj212m0h6whm.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xnytuj212m0h6whm.jpg)
 
 
 > light
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbc7xkvwmj212g0h8ad5.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbc7xkvwmj212g0h8ad5.jpg)
 
 > ocean
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/ocean-highlight.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/ocean-highlight.png)
 
 ### 支持代码复制
 
@@ -145,11 +147,11 @@ highlight:
 
 > 设置`code_word_wrap`之前:
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/no_code_wrap_for_melody.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/no_code_wrap_for_melody.png)
 
 > 设置`code_word_wrap`之后:
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/code_wrap_for_melody.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/code_wrap_for_melody.png)
 
 ------
 
@@ -297,31 +299,31 @@ top_img: true  # false / 具体图片url
 
 > 主页
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf1224d1j21z20xy0y7.jpg)
 
 > 文章页
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf1226nrj21z20u2gr6.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf1226nrj21z20u2gr6.jpg)
 
 - `top_img: false`
 
 > 主页
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbeyeimscj21z20y0ju7.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbeyeimscj21z20y0ju7.jpg)
 
 > 文章页
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbeyf0x5sj21z20xoal5.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbeyf0x5sj21z20xoal5.jpg)
 
 - `top_img: https://xxxxx.jpg`
 
 > 主页
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf9wlz0qj21z20xy7wk.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf9wlz0qj21z20xy7wk.jpg)
 
 > 文章页
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbf9nwhm0j21z20ue1l0.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbf9nwhm0j21z20ue1l0.jpg)
 
 ### 为特定的文章页配置特定的顶部图 
 
@@ -343,6 +345,19 @@ date: 2017-09-07
 
 ------
 
+## 顶部图高度控制
+
+After `v1.7.0` you can control the `top_img_height`! The default value is `60` which means the `top_img` will occupy 60% of the page height. So if you like, you can set the value to `100` to have a full page top_img!
+
+从 `v1.7.0` 版本开始，你可以通过设置 `top_img_height` 来控制顶部图的高度。默认值是 `60`，意味着顶部图会占据 60% 的页面高度。所以如果你喜欢，你可以设置成 `100`，这样你就能获得占据整个页面的顶部图了！
+
+配置 `melody.yml`：
+
+```yaml
+top_img_height: 60
+```
+------
+
 ## 文章相关项
 
 这个选项是用来显示文章的相关信息的。
@@ -360,7 +375,7 @@ post_meta:
 
 下图显示了文章的标签所在的位置：
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbfrd1jhgj21z20ic791.jpg)
 
 ------
 
@@ -379,7 +394,7 @@ post_copyright:
 
 ### 截图
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjmbmm3fq6j214g0980u1.jpg)
 
 ------
 
@@ -401,7 +416,7 @@ QR_code:
 
 ### 截图
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjmbuir86xj212w0egmzf.jpg)
 
 ------
 
@@ -429,9 +444,29 @@ adv:
 
 ![](https://user-images.githubusercontent.com/12621342/34594225-c3d1e0f8-f20a-11e7-9f0b-ed99e4f26305.png)
 
+
+## 侧边栏展示控制 <Badge text="v1.7.0+" />
+
+自从`v1.7.0`版本开始，你可以通过配置 `melody.yml` 来控制侧边栏是否会在特定的页面中自动展示。默认的 `sidebar_display` 的值是 `post`，意味着侧边栏会在文章页自动展示出来。
+
+```yaml
+sidebar_display: post # all/index/post/index-none/post-none/hidden
+```
+
+所有的选项说明如下：
+
+- `all`: 所有的页面都会自动展示侧边栏
+- `index`: 只有首页会自动展示侧边栏
+- `post`: 只有文章页会自动展示侧边栏
+- `index-none`: 只有首页不会自动展示侧边栏
+- `post-none`: 只有文章页不会自动展示侧边栏
+- `hidden`: 所有的页面都不会自动展示侧边栏
+
+------
+
 ## 头像
 
-配置`melody.yml`
+配置`melody.yml`，注意请选择长宽相等的头像，否则显示上会出问题。
 
 ```yaml
 avatar: https://xxxx.jpg
@@ -439,7 +474,7 @@ avatar: https://xxxx.jpg
 
 ### 截图
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fj6lfovr5rj21z4132jx0.jpg)
 
 ------
 
@@ -476,7 +511,7 @@ links:
 
 ### 截图
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbg5ba0xxj20fs12ygo5.jpg)
 
 ------
 
@@ -516,11 +551,11 @@ date: 2017-09-07
 
 > `enable: true`
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbgcwyvbrj21z21307fh.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbgcwyvbrj21z21307fh.jpg)
 
 > `enable: false`
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbgf0xgvaj21yw12q14o.jpg)
 
 > `number: false`
 
@@ -540,7 +575,7 @@ since: 2013
 
 ### 截图
 
-![](https://blog-1251750343.cos.ap-beijing.myqcloud.com/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/Melody/8700af19ly1fjbfw6qgedj21z20akmyw.jpg)
 
 ------
 
@@ -554,9 +589,19 @@ since: 2013
 footer_custom_text: Hi, welcome to my <a href="https://molunerfinn.com">blog</a>!
 ```
 
+### hitokoto <Badge text="v1.7.0+" />
+
+如果你配置成：
+
+```yaml
+footer_custom_text: hitokoto
+```
+
+那么底部文字将会生成随机的谚语，可以查看例子：[https://blog.k1yoshi.com/](https://blog.k1yoshi.com/)
+
 ### 截图
 
-![](https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/footer_custom_text.png)
+![](https://cdn.jsdelivr.net/gh/Molunerfinn/test/picgo/footer_custom_text.png)
 
 ------
 
@@ -577,3 +622,20 @@ fireworks: true
 #### 截图
 
 ![](https://user-images.githubusercontent.com/12621342/34635863-99026944-f2d0-11e7-9fb9-d5d3cc694aba.png)
+
+### 彩带
+
+配置 `melody.yml`，具体配置项可以参考 [ribbon.js](https://github.com/hustcc/ribbon.js) 的说明。
+
+```yaml
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false
+```
+
+#### 截图
+
+![](https://user-images.githubusercontent.com/9944833/55931873-c5176400-5c59-11e9-9230-3358f19202e9.png)

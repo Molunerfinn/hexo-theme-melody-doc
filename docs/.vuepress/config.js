@@ -42,11 +42,11 @@ module.exports = {
             text: 'Advanced',
             items: [
               {
-                text: 'Theme pages',
+                text: 'Theme-pages',
                 link: '/theme-pages.html'
               },
               {
-                text: 'Theme Config',
+                text: 'Theme-config',
                 link: '/theme-config.html'
               },
               {
