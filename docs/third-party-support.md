@@ -6,7 +6,7 @@ sidebarDepth: 2
 
 > More third-party libs are coming soon.
 
-------
+---
 
 ## Comments
 
@@ -60,10 +60,10 @@ And then set the `melody.yml`:
 ```yaml
 gitment:
   enable: true # or false
-  owner: your github name 
-  repo: your github repo 
+  owner: your github name
+  repo: your github repo
   client_id: your client id
-  client_secret: your client secret 
+  client_secret: your client secret
 ```
 
 For example:
@@ -73,8 +73,8 @@ gitment:
   enable: true
   owner: Molunerfinn
   repo: Molunerfinn.github.io
-  client_id: xxxx 
-  client_secret: yyyy 
+  client_id: xxxx
+  client_secret: yyyy
 ```
 
 #### Screenshot
@@ -90,7 +90,7 @@ And then set the `melody.yml`:
 ```yaml
 gitalk:
   enable: true
-  client_id: your client id 
+  client_id: your client id
   client_secret: your client secret
   repo: your github repo
   owner: your github name
@@ -110,8 +110,8 @@ And then set the `melody.yml`:
 ```yaml
 valine:
   enable: false # if you want use valine,please set this value is ture
-  appId:  # leancloud application app id
-  appKey:  # leancloud application app key
+  appId: # leancloud application app id
+  appKey: # leancloud application app key
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
   verify: false # valine verify code (true/false)
   pageSize: 10 # comment list page size
@@ -125,7 +125,7 @@ valine:
 
 ![](https://user-images.githubusercontent.com/12621342/37018884-f9e8fc56-2150-11e8-906a-ec0a3f1d1e91.png)
 
-------
+---
 
 ## Share
 
@@ -175,7 +175,7 @@ sharejs:
 
 ![](https://user-images.githubusercontent.com/12621342/34594230-c537c5e8-f20a-11e7-9d52-267f3456aa22.png)
 
-------
+---
 
 ## Search
 
@@ -190,7 +190,6 @@ After set the search system, you will have a global search button in the navbar 
 2. Set the `melody.yml`
 
 ```yaml
-
 algolia_search:
   enable: true # or false
   hits:
@@ -213,7 +212,7 @@ algolia_search:
 
 ### Local search <Badge text="v1.3.0+" />
 
-1. You should install [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search). Follow its doc to setup. **Only supporting the `xml` file**.
+1. You should install [hexo-generator-search](https://github.com/wzpan/hexo-generator-search). Follow its doc to setup. **Only supporting the `xml` file**.
 
 2. Set the `melody.yml`
 
@@ -229,7 +228,7 @@ local_search:
 
 ![](https://user-images.githubusercontent.com/12621342/34635853-8404ead0-f2d0-11e7-8feb-936dec267523.png)
 
-------
+---
 
 ## Analytics
 
@@ -275,7 +274,7 @@ google_analytics: your code # usually start with `UA-`
 tencent_analytics: your code
 ```
 
-------
+---
 
 ## Adsense
 
@@ -301,7 +300,7 @@ google_adsense:
 
 ![](https://user-images.githubusercontent.com/24741764/44613950-7776f400-a84e-11e8-9fbc-97b3bcaa71e3.png)
 
-------
+---
 
 ## Access Logs (UV/PV)
 
@@ -319,22 +318,22 @@ busuanzi:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer: 
+  site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer: 
+  site_pv_footer:
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer: 
+  page_pv_footer:
 ```
 
 #### Screenshot
 
 ![](https://user-images.githubusercontent.com/12621342/34635857-8f6f4032-f2d0-11e7-9cdf-4957d9cc0aa1.png)
 
-------
+---
 
 ## Mathematical formula
 
@@ -401,7 +400,7 @@ And you can customize KaTeX as you want through [`@neilsustc/markdown-it-katex`]
 markdown_it_plus:
   plugins:
     - plugin:
-      name: '@neilsustc/markdown-it-katex'
+      name: "@neilsustc/markdown-it-katex"
       enable: true
       options:
         strict: false
@@ -409,13 +408,13 @@ markdown_it_plus:
 
 Of course, you can define you own `macros` using this feature.
 
-Because KaTeX is faster and lightweight, there are fewer features than MathJax (right-click menu). For those are used to MathJax, we also added [*Copy As TeX Code*](https://github.com/upupming/katex-copytex) support for KaTeX, which is enabled by default.
+Because KaTeX is faster and lightweight, there are fewer features than MathJax (right-click menu). For those are used to MathJax, we also added [_Copy As TeX Code_](https://github.com/upupming/katex-copytex) support for KaTeX, which is enabled by default.
 
 #### Screenshot
 
 <img src=https://user-images.githubusercontent.com/24741764/52897430-47157e80-320f-11e9-821c-ba5517ae096f.gif height=600px>
 
-------
+---
 
 ## Word counting <Badge text="v1.3.0+" />
 
