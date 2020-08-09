@@ -7,8 +7,10 @@ sidebarDepth: 1
 
 ## 配置文件说明
 
-* 站点配置文件`_config.yml`是 hexo 工作目录下的主配置文件
-* `melody.yml` 是 `theme-melody` 的配置文件。它需要你手动将主题目录下的`_config.yml`文件复制到 hexo 工作目录的`source/_data/melody.yml`中。如果文件或者文件夹不存在，需要手动创建。
+* 站点配置文件`_config.yml`是 hexo 工作目录下的主配置文件。
+* 若你的 hexo 版本小于5.0.0：`melody.yml` 是 `theme-melody` 的配置文件。它需要你手动将主题目录下的`_config.yml`文件复制到 hexo 工作目录的`source/_data/melody.yml`中。如果文件或者文件夹不存在，需要手动创建。
+* 若你的 hexo 版本大于5.0.0：你需要在 hexo 工作目录下创建一个 `_config.melody.yml`，并将主题目录（**不是 hexo 工作目录**）下的 `_config.yml` 内容拷贝至 `_config.melody.yml`。
+* 下文统称主题的配置文件为 `melody.yml`。
 
 ------
 

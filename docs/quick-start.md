@@ -3,6 +3,20 @@
 
 ## Installation
 
+::: warning
+**Notice: The installation method before and after hexo 5.0 version is different.**
+:::
+
+### Hexo version >= 5.0 <Badge text="theme-melody v1.8.0+" />
+
+Find your hexo work folder
+
+```
+npm install hexo-theme-melody
+```
+
+### Hexo version < 5.0
+
 Find your hexo work folder
 
 ```bash
@@ -36,10 +50,28 @@ theme: melody
 ```
 
 ::: warning
-If you don't have pug & stylus renderder, please `npm install hexo-renderer-pug hexo-renderer-stylus --save` or `yarn add hexo-renderer-pug hexo-renderer-stylus`
+If you don't have pug & stylus renderder, please
+
+`npm install hexo-renderer-pug hexo-renderer-stylus --save` or
+
+`yarn add hexo-renderer-pug hexo-renderer-stylus`
 :::
 
 ## Configuration
+
+::: warning
+**Notice: The configuration file before and after hexo 5.0 version is different.**
+:::
+
+### Hexo version >= 5.0 <Badge text="theme-melody v1.8.0+" />
+
+1. create a `_config.melody.yml` in your hexo work folder.
+2. copy the contents of `./node_modules/hexo-theme-melody/_config.yml` (so you should install `hexo-theme-melody` first.) to `_config.melody.yml`.
+3. If you have used `hexo-theme-melody` for a long time, and has a `melody.yml`, please copy the contents of `melody.yml` to `_config.melody.yml` & remove `melody.yml` since it will be deprecated.
+
+After that, you can update `theme-melody` smoothly by just `npm update hexo-theme-melody`.
+
+### Hexo version < 5.0
 
 For smoothly update, `theme-melody` use the [data files](https://hexo.io/docs/data-files.html) feature.
 

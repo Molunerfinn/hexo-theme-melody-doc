@@ -8,7 +8,9 @@ sidebarDepth: 1
 ## Configuration File Introduction
 
 * root `_config.yml` is the hexo work folder config file
-* `melody.yml` is the `theme-melody` config file which you should copy the theme `_config.yml` to the hexo work folder's `source/_data/melody.yml`
+* with hexo version < 5.0.0, `melody.yml` is the `theme-melody` config file which you should copy the theme `_config.yml` to the hexo work folder's `source/_data/melody.yml`
+* with hexo version >= 5.0.0, you should create a `_config.melody.yml` in the hexo work folder with the contents of the theme's `_config.yml`.
+* hereinafter collectively referred to as `melody.yml`.
 
 ------
 
