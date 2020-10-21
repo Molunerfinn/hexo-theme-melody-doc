@@ -125,6 +125,24 @@ valine:
 
 ![](https://user-images.githubusercontent.com/12621342/37018884-f9e8fc56-2150-11e8-906a-ec0a3f1d1e91.png)
 
+### Vssue
+
+Follow the [Vssue guide](https://vssue.js.org) to setup vssue
+
+```yaml
+vssue:
+  enable: false # Set to true to enable
+  platform: github-v4
+  owner: # The owner's name of repository to store the issues and comments
+  repo: # The name of repository to store the issues and comments.
+  clientId:
+  clientSecret: # only required for some of the platforms
+  autoCreateIssue: false # Auto create issue on platform (github/...)
+  baseURL: "" # For self-hosted gitlab/bitbucket only, see here: https://vssue.js.org/options/#baseurl
+  perPage: 10 # How much comment/page
+  labels: 'Vssue'
+```
+
 ---
 
 ## Share

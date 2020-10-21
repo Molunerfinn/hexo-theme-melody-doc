@@ -62,14 +62,23 @@ slide:
   separator_vertical: --
   charset: utf-8
   theme: black
+  codeTheme: monokai
   # optional
   mouseWheel: false
   transition: slide
   transitionSpeed: default
-  parallaxBackgroundImage: ''
-  parallaxBackgroundSize: ''
+  parallaxBackgroundImage: ""
+  parallaxBackgroundSize: ""
   parallaxBackgroundHorizontal: null
   parallaxBackgroundVertical: null
+  loop: false
+  autoSlide: false
+  controlsBackArrows: 'faded'
+  controlsLayout: 'bottom-right' # Determines where controls appear, "edges" or "bottom-right"
+  progress: true
+  showNotes: false
+  autoPlayMedia: false
+  backgroundTransition: 'fade'
 ```
 
 > For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
