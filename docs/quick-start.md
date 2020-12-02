@@ -50,7 +50,7 @@ theme: melody
 ```
 
 ::: warning
-If you don't have pug & stylus renderder, please
+If you don't have pug & stylus renderer, please
 
 `npm install hexo-renderer-pug hexo-renderer-stylus --save` or
 
@@ -75,7 +75,7 @@ After that, you can update `theme-melody` smoothly by just `npm update hexo-them
 
 For smoothly update, `theme-melody` use the [data files](https://hexo.io/docs/data-files.html) feature.
 
-It's recommonded that copy the theme default config file `_config.yml` to the hexo work folder `source/_data/melody.yml`. If the folder don't exist, create one.
+It's recommended that copy the theme default config file `_config.yml` to the hexo work folder `source/_data/melody.yml`. If the folder don't exist, create one.
 
 ::: warning
 Notice that, if you create the `melody.yml`, it will replace the default settings of the theme `_config.yml` (**Not merge, but replace**)

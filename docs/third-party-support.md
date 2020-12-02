@@ -453,7 +453,7 @@ wordcount:
 
 ## Sticky posts <Badge text="v1.6.0+" />
 
-To have the ability to stikcy posts, you need to do the following things:
+To have the ability to sticky posts, you need to do the following things:
 
 1. Go to the hexo site folder
 2. `npm uninstall hexo-generator-index --save` and then `npm install hexo-generator-index-pin-top --save`
