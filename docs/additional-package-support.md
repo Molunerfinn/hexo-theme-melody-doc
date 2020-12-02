@@ -31,7 +31,7 @@ offline:
     - urlPattern: /* # If you need to load CDN resources, please configure this option. If not, you can configure it.
       handler: cacheFirst
       options:
-        origin: your_websie_url # can be replaced with your url
+        origin: your_website_url # can be replaced with your url
 ```
 For more details, please see the official documentation for [hexo-offline](https://github.com/JLHwung/hexo-offline)
 
@@ -144,9 +144,9 @@ There are a lot of `Live2D` animation models for us to choose from:
 
 For example, I use `tororo(Cute White Cat)`, which can be directly in the download interface above:
 
-  1.After the manual download is complete, copy all the files in `packages` to the `node_moduels` folder in the root directory of the blog.
+  1.After the manual download is complete, copy all the files in `packages` to the `node_modules` folder in the root directory of the blog.
 
-  2.It can also be installed using the package manager. The command format: `npm install model package name` will also be installed in the `node_moduels` directory.
+  2.It can also be installed using the package manager. The command format: `npm install model package name` will also be installed in the `node_modules` directory.
 
   3.Open the configuration file `_config.yml` of the blog root directory and add the following content:
 
